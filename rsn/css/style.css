@@ -1,0 +1,310 @@
+/*--------------
+  Basic styles
+--------------*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 0.3125vw;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 15rem;
+    -webkit-text-size-adjust: 100%;
+}
+
+.wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#2096e9 0%, white 40%);
+}
+
+.container {
+    position: relative;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+a {
+    color: inherit;
+}
+
+p {
+    /*font-weight: bold;*/
+}
+
+input, input::placeholder {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.hiddenInput {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: transparent !important;
+    opacity: 0;
+    z-index: -99;
+}
+
+.error {
+    color: red;
+}
+
+.logo {
+    position: absolute;
+    left: 28rem;
+    top: -8px;
+    z-index: 1;
+    margin-top: 8px;
+    text-align: left;
+    width: 80rem;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+/*--------------
+      Main
+--------------*/
+main {
+    margin-top: 73px;
+    text-align: center;
+}
+
+.main-img {
+    width: 96rem;
+}
+
+form {
+    margin-top: 40rem;
+}
+
+form p {
+    color: #ff5300;
+}
+
+.input {
+    max-width: 165rem;
+    margin: 20rem auto 0;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #717171;
+    font-weight: bold;
+    border-bottom: 1px solid #717171;
+}
+
+.inputBlock {
+    position: relative;
+}
+
+.flag {
+    height: 15rem;
+}
+
+.code {
+    margin: 0 5rem;
+}
+
+.input input {
+    max-width: 91rem;
+    background-color: transparent;
+    border: none;
+    pointer-events: none;
+}
+
+.cursor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    display: none;
+    background-color: #71a8ed;
+    border-radius: 2px;
+    opacity: 1;
+    animation: cursor 1s ease infinite;
+    animation-delay: 0.2s;
+}
+
+.inputPinBlock .cursor {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button {
+    width: 205rem;
+    height: 50rem;
+    margin: 20rem auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; 
+    font-size: 25px;
+    font-family: inherit;
+    font-weight: thinner;
+    text-transform: uppercase;
+    background-color: #4dc3ff;
+    border: none;
+    border-radius: 7rem;
+    box-shadow:0 5px 40px -10px rgba(0,0,0,.57);
+}
+
+.underformText {
+    margin-top: 20rem;
+    color: #747474;
+}
+
+.terms {
+    margin-top: 20rem;
+}
+
+.terms a {
+    color: #747474;
+    text-decoration: underline;
+}
+
+.cost {
+    margin: 20rem auto 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    color: #747474;
+    /*font-size: 3vmin;*/
+}
+
+.foot {
+    text-align: center;
+    line-height: 10rem;
+    font-size: 10px;
+}
+
+
+
+footer {
+    position: relative;
+    margin-top: 20rem;
+    padding: 0 5rem 3rem;
+    color: #747474;
+    text-align: center;
+    font-size: 10rem;
+}
+
+
+@media (min-width: 550px) {
+    :root {
+        font-size: 1.7187466667px;
+    }
+}
+
+
+/*--------------
+   Animation
+--------------*/
+@keyframes cursor {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* @media 
+    (orientation: portrait) and (min-width: 376px) and (max-height: 615px),
+    (orientation: portrait) and (max-width: 375px) and (max-height: 560px) {
+        main {
+            top: 30px;
+        }
+    }
+
+@media (orientation: landscape) and (max-height: 680px) {
+    main {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    form {
+        margin-top: 20rem;
+    }
+
+    .input, .button, .underformText, .terms {
+        margin-top: 10rem;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 330px) {
+    .main-img {
+        display: none;
+    }
+
+    form {
+        margin-top: 0;
+    }
+
+    .input {
+        padding-bottom: 5rem;
+    }
+} */
+
+
+/*--------------
+     Media
+--------------*/
+@media (orientation: portrait) {
+    html, body {
+        height: 100%;
+    }
+
+    main {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        right: 0;
+        margin-top: 0;
+    }
+
+    footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+
+/* @media (orientation: landscape) and (max-height: 550px) {
+    :root {
+        font-size: 1.2px;
+    }
+
+    .main-img {
+        width: 75rem;
+    }
+} */

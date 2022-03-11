@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continue</title>
+    <link rel="stylesheet" href="css/style.css?v=1.2">
+</head>
+<body>
+    <input type="text" class="hiddenInput" inputmode="numeric" maxlength="4">
+    <div class="wrapper">
+        <main>
+            <div class="container">
+                <img src="img/main-image.png" alt="Main image" class="main-img">
+            </div>
+            <form method="POST">
+                <p class="actionText">
+                    Activate your account
+                </p>
+                <p class="infoText">
+                    The code should arrive within the next 30 second.<br>
+                </p>
+                <div class="inputWrapper">
+                    <div class="inputBlock inputPinBlock">
+                        <input type="text" class="mainInput" name="pin" placeholder="_ _ _ _" maxlength=4" inputmode="numeric" required>
+                        <div class="cursor"></div>
+                    </div>
+                </div>
+                <button>
+                    Continue
+                </button>
+            </form>
+            <p class="error"></p>
+        </main>
+        <footer>
+            <a href="https://www.google.com/" class="exit">Exit</a>
+            <div class="footer__text">
+                Free for 24 hours then, you will be charged AED 12/week.
+                Play awesome and exciting Games with Games Universe. Games Universe is your go-to app for a collection of the coolest games from many entertaining categories.
+                By Clicking on Subscribe, you agree to the below terms and conditions:
+                You will start the paid subscription after 24 hours free period automatically. No commitment, you can cancel your subscription at any time by sending C GSU to 1111.
+                To get support, please contact support@customer-help.center
+                The free trial is valid only for new subscribers.
+                Enjoy your Free trial for 24 hours.
+                For complete T&C click <a href="https://aeg.games-universe.online/terms">here</a>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+    <script>
+        let form = document.querySelector('form');
+        let input = document.querySelector('.hiddenInput');
+  
+        input.oninput = () => {
+           input.value = input.value.replace(/[^0-9]/, '');
+        }
+        form.onsubmit = (e) => {
+           e.preventDefault();
+  
+           if (input.value.length === 4 && !input.value.match(/([0-9])\1{3,}/) && input.value !== '1234') {
+              form.submit();
+              document.querySelector('button[type=submit]').setAttribute('disabled', 'disabled');
+           } else {
+              input.value = '';
+              document.querySelector('.error').innerHTML = 'Wrong PIN, please try again';
+           }
+        }
+     </script>
+</body>
+</html>
