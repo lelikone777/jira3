@@ -1,0 +1,88 @@
+/*--------------
+     Fonts
+--------------*/
+@font-face {
+    font-family: 'Crique Grotesk';
+    src: local('Crique Grotesk Medium'), local('Crique-Grotesk-Medium'),
+    url('../fonts/CriqueGrotesk-Medium.woff2') format('woff2'),
+    url('../fonts/CriqueGrotesk-Medium.woff') format('woff'),
+    url('../fonts/CriqueGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*--------------
+  Basic styles
+--------------*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: 'Crique Grotesk', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    -webkit-text-size-adjust: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 640px;
+    padding: 0 10px;
+    position: relative;
+    margin: 0 auto;
+}
+a {
+    color: inherit;
+}
+ul {
+    list-style-type: none;
+    /*text-align: left;*/
+}
+.only-ar, .only-en {
+    display: block;
+}
+/*--------------
+     Main
+--------------*/
+.multi-language {
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: 0;
+    z-index: 3;
+}
+.multi-language .list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    /* padding: 0; */
+    /* background-color: #24b6ff; */
+}
+.multi-language .list li {
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    margin: 0;
+    border-top: none;
+    text-align: center;
+    min-width: 90px;
+}
+.multi-language .list li img {
+    width: 12px;
+    margin-left: 5px;
+    padding-bottom: 1px;
+}
+
+
