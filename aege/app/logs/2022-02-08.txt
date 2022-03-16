@@ -1,0 +1,681 @@
+2022-02-08 00:21:21 http://inspigate.com/go4mobility/init/extra request: phone=971506516408&subscription_id=8245246426 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638409907\u0026payed=K7Ka0chJyER1wN-2FioZoFilUF-2FrkoHEYKXkEcHakU8nQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17391\u0026wb_subscription_id=8245246426\u0026order_id=in0.2638409907\u0026abonent=971506516408","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638409907\u0026payed=K7Ka0chJyER1wN-2FioZoFilUF-2FrkoHEYKXkEcHakU8nQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17391\u0026wb_subscription_id=8245246426\u0026order_id=in0.2638409907\u0026abonent=971506516408","resultCode":null}
+===
+2022-02-08 00:33:03 phone submit error: wb_id=8245255006, phone=052787684, text=Check your number format and try again
+===
+2022-02-08 00:33:20 http://inspigate.com/go4mobility/init/extra request: phone=971527876849&subscription_id=8245255006 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638415901\u0026payed=K7Ka0chJyER1wN-2FioZoFitri3RR0IW21XQh9RbVmY9I-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245255006\u0026order_id=in0.2638415901\u0026abonent=971527876849","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638415901\u0026payed=K7Ka0chJyER1wN-2FioZoFitri3RR0IW21XQh9RbVmY9I-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245255006\u0026order_id=in0.2638415901\u0026abonent=971527876849","resultCode":null}
+===
+2022-02-08 00:33:24 http://inspigate.com/go4mobility/init/extra request: phone=971581278037&subscription_id=8245253995 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638415166\u0026payed=K7Ka0chJyER1wN-2FioZoFij-2BiQr0aTzbFoUujOnuSf0c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245253995\u0026order_id=in0.2638415166\u0026abonent=971581278037","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638415166\u0026payed=K7Ka0chJyER1wN-2FioZoFij-2BiQr0aTzbFoUujOnuSf0c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245253995\u0026order_id=in0.2638415166\u0026abonent=971581278037","resultCode":null}
+===
+2022-02-08 00:33:56 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245255006&phone=971527876849&pin=2030, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:33:56 pincode submit error: wb_id=8245255006, phone=971527876849, pin=2030 text=Wrong PIN, please try again
+===
+2022-02-08 00:34:49 http://inspigate.com/go4mobility/init/extra request: phone=971526112602&subscription_id=8245260946 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638420149\u0026payed=K7Ka0chJyER1wN-2FioZoFiuhEGTI9JP-2FeJzrro4VhXQw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245260946\u0026order_id=in0.2638420149\u0026abonent=971526112602","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638420149\u0026payed=K7Ka0chJyER1wN-2FioZoFiuhEGTI9JP-2FeJzrro4VhXQw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245260946\u0026order_id=in0.2638420149\u0026abonent=971526112602","resultCode":null}
+===
+2022-02-08 00:35:04 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245260946&phone=971526112602&pin=2602, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:35:04 pincode submit error: wb_id=8245260946, phone=971526112602, pin=2602 text=Wrong PIN, please try again
+===
+2022-02-08 00:36:22 phone submit error: wb_id=8245264540, phone=052334988, text=Check your number format and try again
+===
+2022-02-08 00:36:46 http://inspigate.com/go4mobility/init/extra request: phone=971523349884&subscription_id=8245264540 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638422779\u0026payed=K7Ka0chJyER1wN-2FioZoFinVDe5bo4QF5ybhRRZKchdI-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245264540\u0026order_id=in0.2638422779\u0026abonent=971523349884","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638422779\u0026payed=K7Ka0chJyER1wN-2FioZoFinVDe5bo4QF5ybhRRZKchdI-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245264540\u0026order_id=in0.2638422779\u0026abonent=971523349884","resultCode":null}
+===
+2022-02-08 00:36:48 http://inspigate.com/go4mobility/init/extra request: phone=971525927325&subscription_id=8245264562 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638422795\u0026payed=K7Ka0chJyER1wN-2FioZoFijsuQQd81-2BftK-2FuVpZxOcwE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245264562\u0026order_id=in0.2638422795\u0026abonent=971525927325","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638422795\u0026payed=K7Ka0chJyER1wN-2FioZoFijsuQQd81-2BftK-2FuVpZxOcwE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245264562\u0026order_id=in0.2638422795\u0026abonent=971525927325","resultCode":null}
+===
+2022-02-08 00:36:59 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245264540&phone=971523349884&pin=1122, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:36:59 pincode submit error: wb_id=8245264540, phone=971523349884, pin=1122 text=Wrong PIN, please try again
+===
+2022-02-08 00:36:59 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245264562&phone=971525927325&pin=7325, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:36:59 pincode submit error: wb_id=8245264562, phone=971525927325, pin=7325 text=Wrong PIN, please try again
+===
+2022-02-08 00:37:11 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245264562&phone=971525927325&pin=7325, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:37:11 pincode submit error: wb_id=8245264562, phone=971525927325, pin=7325 text=Wrong PIN, please try again
+===
+2022-02-08 00:37:13 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245264540&phone=971523349884&pin=4946, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:37:13 pincode submit error: wb_id=8245264540, phone=971523349884, pin=4946 text=Wrong PIN, please try again
+===
+2022-02-08 00:37:20 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245264540&phone=971523349884&pin=4849, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:37:20 pincode submit error: wb_id=8245264540, phone=971523349884, pin=4849 text=Wrong PIN, please try again
+===
+2022-02-08 00:37:33 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245264562&phone=971525927325&pin=7325, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:37:33 pincode submit error: wb_id=8245264562, phone=971525927325, pin=7325 text=Wrong PIN, please try again
+===
+2022-02-08 00:38:03 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245264540&phone=971523349884&pin=3311, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:38:03 pincode submit error: wb_id=8245264540, phone=971523349884, pin=3311 text=Wrong PIN, please try again
+===
+2022-02-08 00:38:04 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245264562&phone=971525927325&pin=7325, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:38:04 pincode submit error: wb_id=8245264562, phone=971525927325, pin=7325 text=Wrong PIN, please try again
+===
+2022-02-08 00:38:08 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245264540&phone=971523349884&pin=1616, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:38:08 pincode submit error: wb_id=8245264540, phone=971523349884, pin=1616 text=Wrong PIN, please try again
+===
+2022-02-08 00:39:24 http://inspigate.com/go4mobility/init/extra request: phone=971527007334&subscription_id=8245264572 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638422805\u0026payed=K7Ka0chJyER1wN-2FioZoFisHnxMPCMBILifgCMAwuRII-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245264572\u0026order_id=in0.2638422805\u0026abonent=971527007334","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638422805\u0026payed=K7Ka0chJyER1wN-2FioZoFisHnxMPCMBILifgCMAwuRII-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245264572\u0026order_id=in0.2638422805\u0026abonent=971527007334","resultCode":null}
+===
+2022-02-08 00:39:42 http://inspigate.com/go4mobility/init/extra request: phone=971900451456&subscription_id=8245268830 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638425850\u0026payed=K7Ka0chJyER1wN-2FioZoFioLLiWwWUa2-2BP4c6FtqXiZg-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245268830\u0026order_id=in0.2638425850\u0026abonent=971900451456","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638425850\u0026payed=K7Ka0chJyER1wN-2FioZoFioLLiWwWUa2-2BP4c6FtqXiZg-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245268830\u0026order_id=in0.2638425850\u0026abonent=971900451456","resultCode":112}
+===
+2022-02-08 00:40:24 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245264572&phone=971527007334&pin=2580, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:40:24 pincode submit error: wb_id=8245264572, phone=971527007334, pin=2580 text=Wrong PIN, please try again
+===
+2022-02-08 00:40:52 http://inspigate.com/go4mobility/init/extra request: phone=971527007334&subscription_id=8245264572 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638422805\u0026payed=K7Ka0chJyER1wN-2FioZoFisHnxMPCMBILifgCMAwuRII-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245264572\u0026order_id=in0.2638422805\u0026abonent=971527007334","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638422805\u0026payed=K7Ka0chJyER1wN-2FioZoFisHnxMPCMBILifgCMAwuRII-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245264572\u0026order_id=in0.2638422805\u0026abonent=971527007334","resultCode":null}
+===
+2022-02-08 00:40:57 phone submit error: wb_id=8245276582, phone=058921283, text=Check your number format and try again
+===
+2022-02-08 00:41:04 http://inspigate.com/go4mobility/init/extra request: phone=971556850952&subscription_id=8245276570 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431266\u0026payed=K7Ka0chJyER1wN-2FioZoFiiUIuVdgOdwah8TsqT9JgAw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245276570\u0026order_id=in0.2638431266\u0026abonent=971556850952","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431266\u0026payed=K7Ka0chJyER1wN-2FioZoFiiUIuVdgOdwah8TsqT9JgAw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245276570\u0026order_id=in0.2638431266\u0026abonent=971556850952","resultCode":null}
+===
+2022-02-08 00:41:10 http://inspigate.com/go4mobility/init/extra request: phone=971504943668&subscription_id=8245276545 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431249\u0026payed=K7Ka0chJyER1wN-2FioZoFinjxU3EaP38c4oWWWBy9Y48-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245276545\u0026order_id=in0.2638431249\u0026abonent=971504943668","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431249\u0026payed=K7Ka0chJyER1wN-2FioZoFinjxU3EaP38c4oWWWBy9Y48-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245276545\u0026order_id=in0.2638431249\u0026abonent=971504943668","resultCode":null}
+===
+2022-02-08 00:41:47 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245276545&phone=971504943668&pin=8861, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[Ok]]></status>
+  <message><![CDATA[Pin submitted successfully]]></message>
+</result>
+
+===
+2022-02-08 00:41:51 http://inspigate.com/go4mobility/init/extra request: phone=971589212837&subscription_id=8245276582 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431276\u0026payed=K7Ka0chJyER1wN-2FioZoFisieZ-2FeiLdQEMgLuj28bkFU-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245276582\u0026order_id=in0.2638431276\u0026abonent=971589212837","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431276\u0026payed=K7Ka0chJyER1wN-2FioZoFisieZ-2FeiLdQEMgLuj28bkFU-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245276582\u0026order_id=in0.2638431276\u0026abonent=971589212837","resultCode":null}
+===
+2022-02-08 00:43:13 http://inspigate.com/go4mobility/init/extra request: phone=971565545784&subscription_id=8245276612 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431298\u0026payed=K7Ka0chJyER1wN-2FioZoFigjFPCJ-2BPczeOhsrMQYVFBo-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245276612\u0026order_id=in0.2638431298\u0026abonent=971565545784","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431298\u0026payed=K7Ka0chJyER1wN-2FioZoFigjFPCJ-2BPczeOhsrMQYVFBo-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245276612\u0026order_id=in0.2638431298\u0026abonent=971565545784","resultCode":null}
+===
+2022-02-08 00:43:43 phone submit error: wb_id=8245276623, phone=050494366, text=Check your number format and try again
+===
+2022-02-08 00:43:58 phone submit error: wb_id=8245276623, phone=050494366, text=Check your number format and try again
+===
+2022-02-08 00:44:11 http://inspigate.com/go4mobility/init/extra request: phone=971504943668&subscription_id=8245276623 extra init response: http_code=573, data=Subscription already exists, id=8245276545.
+===
+2022-02-08 00:44:11 phone submit error: wb_id=8245276623, phone=971504943668, text=Extra init unexpected response
+===
+2022-02-08 00:44:27 http://inspigate.com/go4mobility/init/extra request: phone=971504943668&subscription_id=8245276623 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431304\u0026payed=K7Ka0chJyER1wN-2FioZoFiguORC2uUbPlZM6Do8l0X2g-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245276623\u0026order_id=in0.2638431304\u0026abonent=971504943668","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431304\u0026payed=K7Ka0chJyER1wN-2FioZoFiguORC2uUbPlZM6Do8l0X2g-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245276623\u0026order_id=in0.2638431304\u0026abonent=971504943668","resultCode":null}
+===
+2022-02-08 00:44:43 http://inspigate.com/go4mobility/init/extra request: phone=971504943668&subscription_id=8245276623 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431304\u0026payed=K7Ka0chJyER1wN-2FioZoFiguORC2uUbPlZM6Do8l0X2g-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245276623\u0026order_id=in0.2638431304\u0026abonent=971504943668","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431304\u0026payed=K7Ka0chJyER1wN-2FioZoFiguORC2uUbPlZM6Do8l0X2g-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245276623\u0026order_id=in0.2638431304\u0026abonent=971504943668","resultCode":null}
+===
+2022-02-08 00:45:01 http://inspigate.com/go4mobility/init/extra request: phone=971556295121&subscription_id=8245276640 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431310\u0026payed=K7Ka0chJyER1wN-2FioZoFitQe1Wb-2B4k2pBdVtMQiunQA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245276640\u0026order_id=in0.2638431310\u0026abonent=971556295121","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638431310\u0026payed=K7Ka0chJyER1wN-2FioZoFitQe1Wb-2B4k2pBdVtMQiunQA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245276640\u0026order_id=in0.2638431310\u0026abonent=971556295121","resultCode":null}
+===
+2022-02-08 00:53:04 phone submit error: wb_id=8245280822, phone=056437708, text=Check your number format and try again
+===
+2022-02-08 00:53:18 http://inspigate.com/go4mobility/init/extra request: phone=971524633727&subscription_id=8245280983 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434469\u0026payed=K7Ka0chJyER1wN-2FioZoFiknsJoVNSJX93Ri7fyf1FkY-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245280983\u0026order_id=in0.2638434469\u0026abonent=971524633727","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434469\u0026payed=K7Ka0chJyER1wN-2FioZoFiknsJoVNSJX93Ri7fyf1FkY-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245280983\u0026order_id=in0.2638434469\u0026abonent=971524633727","resultCode":null}
+===
+2022-02-08 00:53:40 http://inspigate.com/go4mobility/init/extra request: phone=971564377081&subscription_id=8245280822 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434356\u0026payed=K7Ka0chJyER1wN-2FioZoFivZAJ4oCbEK7zVVbKuVVePU-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245280822\u0026order_id=in0.2638434356\u0026abonent=971564377081","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434356\u0026payed=K7Ka0chJyER1wN-2FioZoFivZAJ4oCbEK7zVVbKuVVePU-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245280822\u0026order_id=in0.2638434356\u0026abonent=971564377081","resultCode":105}
+===
+2022-02-08 00:53:53 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245280983&phone=971524633727&pin=3037, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 00:53:53 pincode submit error: wb_id=8245280983, phone=971524633727, pin=3037 text=Wrong PIN, please try again
+===
+2022-02-08 00:55:28 http://inspigate.com/go4mobility/init/extra request: phone=971564377081&subscription_id=8245281362 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434711\u0026payed=K7Ka0chJyER1wN-2FioZoFigj6N-2FbFGEYyQfa8AVWBh4A-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245281362\u0026order_id=in0.2638434711\u0026abonent=971564377081","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434711\u0026payed=K7Ka0chJyER1wN-2FioZoFigj6N-2FbFGEYyQfa8AVWBh4A-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245281362\u0026order_id=in0.2638434711\u0026abonent=971564377081","resultCode":105}
+===
+2022-02-08 00:55:48 http://inspigate.com/go4mobility/init/extra request: phone=971523644396&subscription_id=8245281380 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434725\u0026payed=K7Ka0chJyER1wN-2FioZoFiuQtDglC668a-2BIRvu5uvbcY-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245281380\u0026order_id=in0.2638434725\u0026abonent=971523644396","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434725\u0026payed=K7Ka0chJyER1wN-2FioZoFiuQtDglC668a-2BIRvu5uvbcY-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245281380\u0026order_id=in0.2638434725\u0026abonent=971523644396","resultCode":null}
+===
+2022-02-08 00:58:04 http://inspigate.com/go4mobility/init/extra request: phone=971564377081&subscription_id=8245281395 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434738\u0026payed=K7Ka0chJyER1wN-2FioZoFivu7zeoet-2BzuDwyPS0pU4wg-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245281395\u0026order_id=in0.2638434738\u0026abonent=971564377081","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434738\u0026payed=K7Ka0chJyER1wN-2FioZoFivu7zeoet-2BzuDwyPS0pU4wg-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245281395\u0026order_id=in0.2638434738\u0026abonent=971564377081","resultCode":105}
+===
+2022-02-08 01:03:00 http://inspigate.com/go4mobility/init/extra request: phone=971527786584&subscription_id=8245281427 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434764\u0026payed=K7Ka0chJyER1wN-2FioZoFim-2BxIP2GHbqsYalhz3tFaZE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245281427\u0026order_id=in0.2638434764\u0026abonent=971527786584","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638434764\u0026payed=K7Ka0chJyER1wN-2FioZoFim-2BxIP2GHbqsYalhz3tFaZE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245281427\u0026order_id=in0.2638434764\u0026abonent=971527786584","resultCode":null}
+===
+2022-02-08 01:03:11 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245281427&phone=971527786584&pin=8484, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:03:11 pincode submit error: wb_id=8245281427, phone=971527786584, pin=8484 text=Wrong PIN, please try again
+===
+2022-02-08 01:03:23 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245281427&phone=971527786584&pin=8484, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:03:23 pincode submit error: wb_id=8245281427, phone=971527786584, pin=8484 text=Wrong PIN, please try again
+===
+2022-02-08 01:03:42 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245281427&phone=971527786584&pin=8484, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:03:42 pincode submit error: wb_id=8245281427, phone=971527786584, pin=8484 text=Wrong PIN, please try again
+===
+2022-02-08 01:10:38 phone submit error: wb_id=8245282372, phone=050120386, text=Check your number format and try again
+===
+2022-02-08 01:11:41 http://inspigate.com/go4mobility/init/extra request: phone=971588431587&subscription_id=8245285500 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638437701\u0026payed=K7Ka0chJyER1wN-2FioZoFikAd1ynu3u2iNg-2BcOgCA2-2B8-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245285500\u0026order_id=in0.2638437701\u0026abonent=971588431587","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638437701\u0026payed=K7Ka0chJyER1wN-2FioZoFikAd1ynu3u2iNg-2BcOgCA2-2B8-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245285500\u0026order_id=in0.2638437701\u0026abonent=971588431587","resultCode":null}
+===
+2022-02-08 01:11:52 http://inspigate.com/go4mobility/init/extra request: phone=971501203861&subscription_id=8245282372 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638435447\u0026payed=K7Ka0chJyER1wN-2FioZoFiu0Sn0uPxG-2Fyk8I17jw4FzM-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245282372\u0026order_id=in0.2638435447\u0026abonent=971501203861","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638435447\u0026payed=K7Ka0chJyER1wN-2FioZoFiu0Sn0uPxG-2Fyk8I17jw4FzM-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245282372\u0026order_id=in0.2638435447\u0026abonent=971501203861","resultCode":null}
+===
+2022-02-08 01:11:56 http://inspigate.com/go4mobility/init/extra request: phone=971501203861&subscription_id=8245282372 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638435447\u0026payed=K7Ka0chJyER1wN-2FioZoFiu0Sn0uPxG-2Fyk8I17jw4FzM-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245282372\u0026order_id=in0.2638435447\u0026abonent=971501203861","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638435447\u0026payed=K7Ka0chJyER1wN-2FioZoFiu0Sn0uPxG-2Fyk8I17jw4FzM-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245282372\u0026order_id=in0.2638435447\u0026abonent=971501203861","resultCode":null}
+===
+2022-02-08 01:12:21 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245282372&phone=971501203861&pin=3814, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[Ok]]></status>
+  <message><![CDATA[Pin submitted successfully]]></message>
+</result>
+
+===
+2022-02-08 01:13:28 http://inspigate.com/go4mobility/init/extra request: phone=971588431587&subscription_id=8245285500 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638437701\u0026payed=K7Ka0chJyER1wN-2FioZoFikAd1ynu3u2iNg-2BcOgCA2-2B8-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245285500\u0026order_id=in0.2638437701\u0026abonent=971588431587","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638437701\u0026payed=K7Ka0chJyER1wN-2FioZoFikAd1ynu3u2iNg-2BcOgCA2-2B8-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245285500\u0026order_id=in0.2638437701\u0026abonent=971588431587","resultCode":null}
+===
+2022-02-08 01:13:58 http://inspigate.com/go4mobility/init/extra request: phone=971588431587&subscription_id=8245285500 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638437701\u0026payed=K7Ka0chJyER1wN-2FioZoFikAd1ynu3u2iNg-2BcOgCA2-2B8-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245285500\u0026order_id=in0.2638437701\u0026abonent=971588431587","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638437701\u0026payed=K7Ka0chJyER1wN-2FioZoFikAd1ynu3u2iNg-2BcOgCA2-2B8-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245285500\u0026order_id=in0.2638437701\u0026abonent=971588431587","resultCode":null}
+===
+2022-02-08 01:19:32 http://inspigate.com/go4mobility/init/extra request: phone=971566237245&subscription_id=8245305876 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638452539\u0026payed=K7Ka0chJyER1wN-2FioZoFituId4VTU6B4ue98fkmUJrE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17391\u0026wb_subscription_id=8245305876\u0026order_id=in0.2638452539\u0026abonent=971566237245","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638452539\u0026payed=K7Ka0chJyER1wN-2FioZoFituId4VTU6B4ue98fkmUJrE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17391\u0026wb_subscription_id=8245305876\u0026order_id=in0.2638452539\u0026abonent=971566237245","resultCode":null}
+===
+2022-02-08 01:20:24 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245305876&phone=971566237245&pin=4137, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[Ok]]></status>
+  <message><![CDATA[Pin submitted successfully]]></message>
+</result>
+
+===
+2022-02-08 01:22:07 http://inspigate.com/go4mobility/init/extra request: phone=971565847494&subscription_id=8245308285 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638454306\u0026payed=K7Ka0chJyER1wN-2FioZoFik-2F5HpGfa3i05FaC0CRlRWw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17391\u0026wb_subscription_id=8245308285\u0026order_id=in0.2638454306\u0026abonent=971565847494","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638454306\u0026payed=K7Ka0chJyER1wN-2FioZoFik-2F5HpGfa3i05FaC0CRlRWw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17391\u0026wb_subscription_id=8245308285\u0026order_id=in0.2638454306\u0026abonent=971565847494","resultCode":null}
+===
+2022-02-08 01:22:37 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245308285&phone=971565847494&pin=3694, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[Ok]]></status>
+  <message><![CDATA[Pin submitted successfully]]></message>
+</result>
+
+===
+2022-02-08 01:22:41 http://inspigate.com/go4mobility/init/extra request: phone=971526211725&subscription_id=8245292799 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638442920\u0026payed=K7Ka0chJyER1wN-2FioZoFigtbap1Dz3Q33robV7ohkqE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245292799\u0026order_id=in0.2638442920\u0026abonent=971526211725","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638442920\u0026payed=K7Ka0chJyER1wN-2FioZoFigtbap1Dz3Q33robV7ohkqE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245292799\u0026order_id=in0.2638442920\u0026abonent=971526211725","resultCode":null}
+===
+2022-02-08 01:24:46 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245292799&phone=971526211725&pin=0071, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:24:46 pincode submit error: wb_id=8245292799, phone=971526211725, pin=0071 text=Wrong PIN, please try again
+===
+2022-02-08 01:25:24 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245292799&phone=971526211725&pin=2509, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:25:24 pincode submit error: wb_id=8245292799, phone=971526211725, pin=2509 text=Wrong PIN, please try again
+===
+2022-02-08 01:25:36 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245292799&phone=971526211725&pin=2506, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:25:36 pincode submit error: wb_id=8245292799, phone=971526211725, pin=2506 text=Wrong PIN, please try again
+===
+2022-02-08 01:31:57 http://inspigate.com/go4mobility/init/extra request: phone=971509325902&subscription_id=8245298388 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638447045\u0026payed=K7Ka0chJyER1wN-2FioZoFinTnZ0WioAUmE7sOGva73H4-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245298388\u0026order_id=in0.2638447045\u0026abonent=971509325902","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638447045\u0026payed=K7Ka0chJyER1wN-2FioZoFinTnZ0WioAUmE7sOGva73H4-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245298388\u0026order_id=in0.2638447045\u0026abonent=971509325902","resultCode":null}
+===
+2022-02-08 01:32:45 http://inspigate.com/go4mobility/init/extra request: phone=971509325902&subscription_id=8245298457 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638447106\u0026payed=K7Ka0chJyER1wN-2FioZoFitOsg3OuhO-2BBtaXEVSfnOnA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245298457\u0026order_id=in0.2638447106\u0026abonent=971509325902","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638447106\u0026payed=K7Ka0chJyER1wN-2FioZoFitOsg3OuhO-2BBtaXEVSfnOnA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245298457\u0026order_id=in0.2638447106\u0026abonent=971509325902","resultCode":null}
+===
+2022-02-08 01:33:00 http://inspigate.com/go4mobility/init/extra request: phone=971524254960&subscription_id=8245298471 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638447121\u0026payed=K7Ka0chJyER1wN-2FioZoFiuPgAUocCtuFVXTsEBZdSjI-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245298471\u0026order_id=in0.2638447121\u0026abonent=971524254960","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638447121\u0026payed=K7Ka0chJyER1wN-2FioZoFiuPgAUocCtuFVXTsEBZdSjI-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245298471\u0026order_id=in0.2638447121\u0026abonent=971524254960","resultCode":null}
+===
+2022-02-08 01:33:08 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245298471&phone=971524254960&pin=3596, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:33:08 pincode submit error: wb_id=8245298471, phone=971524254960, pin=3596 text=Wrong PIN, please try again
+===
+2022-02-08 01:33:21 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245298471&phone=971524254960&pin=5242, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:33:21 pincode submit error: wb_id=8245298471, phone=971524254960, pin=5242 text=Wrong PIN, please try again
+===
+2022-02-08 01:33:39 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245298471&phone=971524254960&pin=2580, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:33:39 pincode submit error: wb_id=8245298471, phone=971524254960, pin=2580 text=Wrong PIN, please try again
+===
+2022-02-08 01:34:11 http://inspigate.com/go4mobility/init/extra request: phone=971525510399&subscription_id=8245307653 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638453856\u0026payed=K7Ka0chJyER1wN-2FioZoFigvSgtcvs9z2-2B-2FsojOH0RYA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245307653\u0026order_id=in0.2638453856\u0026abonent=971525510399","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638453856\u0026payed=K7Ka0chJyER1wN-2FioZoFigvSgtcvs9z2-2B-2FsojOH0RYA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245307653\u0026order_id=in0.2638453856\u0026abonent=971525510399","resultCode":null}
+===
+2022-02-08 01:34:30 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245307653&phone=971525510399&pin=7667, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:34:30 pincode submit error: wb_id=8245307653, phone=971525510399, pin=7667 text=Wrong PIN, please try again
+===
+2022-02-08 01:36:44 http://inspigate.com/go4mobility/init/extra request: phone=971525510399&subscription_id=8245307687 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638453889\u0026payed=K7Ka0chJyER1wN-2FioZoFipLm0F4ne7HdMW7seiZ4Ipc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245307687\u0026order_id=in0.2638453889\u0026abonent=971525510399","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638453889\u0026payed=K7Ka0chJyER1wN-2FioZoFipLm0F4ne7HdMW7seiZ4Ipc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245307687\u0026order_id=in0.2638453889\u0026abonent=971525510399","resultCode":null}
+===
+2022-02-08 01:43:27 phone submit error: wb_id=8245307733, phone=052518052, text=Check your number format and try again
+===
+2022-02-08 01:43:34 http://inspigate.com/go4mobility/init/extra request: phone=971502232852&subscription_id=8245307739 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638453930\u0026payed=K7Ka0chJyER1wN-2FioZoFih8i0quATWZ2WNRmFgdVdqQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245307739\u0026order_id=in0.2638453930\u0026abonent=971502232852","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638453930\u0026payed=K7Ka0chJyER1wN-2FioZoFih8i0quATWZ2WNRmFgdVdqQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245307739\u0026order_id=in0.2638453930\u0026abonent=971502232852","resultCode":105}
+===
+2022-02-08 01:43:46 http://inspigate.com/go4mobility/init/extra request: phone=971525180527&subscription_id=8245307733 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638453925\u0026payed=K7Ka0chJyER1wN-2FioZoFigvsVotY3SojIesmS9M1RNA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245307733\u0026order_id=in0.2638453925\u0026abonent=971525180527","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638453925\u0026payed=K7Ka0chJyER1wN-2FioZoFigvsVotY3SojIesmS9M1RNA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245307733\u0026order_id=in0.2638453925\u0026abonent=971525180527","resultCode":null}
+===
+2022-02-08 01:43:57 http://inspigate.com/go4mobility/init/extra request: phone=971521149830&subscription_id=8245307745 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638453937\u0026payed=K7Ka0chJyER1wN-2FioZoFigyHZsdcRa5nV5y7fwlTdnw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245307745\u0026order_id=in0.2638453937\u0026abonent=971521149830","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638453937\u0026payed=K7Ka0chJyER1wN-2FioZoFigyHZsdcRa5nV5y7fwlTdnw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245307745\u0026order_id=in0.2638453937\u0026abonent=971521149830","resultCode":null}
+===
+2022-02-08 01:44:09 http://inspigate.com/go4mobility/init/extra request: phone=971501480659&subscription_id=8245322245 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638464645\u0026payed=K7Ka0chJyER1wN-2FioZoFioC3NeIGLLn8UyXJn-2BgVTec-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17391\u0026wb_subscription_id=8245322245\u0026order_id=in0.2638464645\u0026abonent=971501480659","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638464645\u0026payed=K7Ka0chJyER1wN-2FioZoFioC3NeIGLLn8UyXJn-2BgVTec-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17391\u0026wb_subscription_id=8245322245\u0026order_id=in0.2638464645\u0026abonent=971501480659","resultCode":105}
+===
+2022-02-08 01:44:11 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245307733&phone=971525180527&pin=2244, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:44:11 pincode submit error: wb_id=8245307733, phone=971525180527, pin=2244 text=Wrong PIN, please try again
+===
+2022-02-08 01:44:12 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245307745&phone=971521149830&pin=2580, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:44:12 pincode submit error: wb_id=8245307745, phone=971521149830, pin=2580 text=Wrong PIN, please try again
+===
+2022-02-08 01:45:04 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245307733&phone=971525180527&pin=4555, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:45:04 pincode submit error: wb_id=8245307733, phone=971525180527, pin=4555 text=Wrong PIN, please try again
+===
+2022-02-08 01:46:34 phone submit error: wb_id=8245307758, phone=052518052, text=Check your number format and try again
+===
+2022-02-08 01:47:15 phone submit error: wb_id=8245307758, phone=052518052, text=Check your number format and try again
+===
+2022-02-08 01:56:27 http://inspigate.com/go4mobility/init/extra request: phone=971526818155&subscription_id=8245323022 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638465261\u0026payed=K7Ka0chJyER1wN-2FioZoFijQlmBJBnKwu6UeRzRH7Thc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17391\u0026wb_subscription_id=8245323022\u0026order_id=in0.2638465261\u0026abonent=971526818155","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638465261\u0026payed=K7Ka0chJyER1wN-2FioZoFijQlmBJBnKwu6UeRzRH7Thc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17391\u0026wb_subscription_id=8245323022\u0026order_id=in0.2638465261\u0026abonent=971526818155","resultCode":null}
+===
+2022-02-08 01:56:29 http://inspigate.com/go4mobility/init/extra request: phone=971564243246&subscription_id=8245329147 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638469978\u0026payed=K7Ka0chJyER1wN-2FioZoFiruq0HeS3rISR12lludpqsw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17391\u0026wb_subscription_id=8245329147\u0026order_id=in0.2638469978\u0026abonent=971564243246","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638469978\u0026payed=K7Ka0chJyER1wN-2FioZoFiruq0HeS3rISR12lludpqsw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17391\u0026wb_subscription_id=8245329147\u0026order_id=in0.2638469978\u0026abonent=971564243246","resultCode":null}
+===
+2022-02-08 01:56:30 http://inspigate.com/go4mobility/init/extra request: phone=971552070460&subscription_id=8245315163 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638459346\u0026payed=K7Ka0chJyER1wN-2FioZoFitIU0MCzk2h7qxUBLBEw6SQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245315163\u0026order_id=in0.2638459346\u0026abonent=971552070460","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638459346\u0026payed=K7Ka0chJyER1wN-2FioZoFitIU0MCzk2h7qxUBLBEw6SQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245315163\u0026order_id=in0.2638459346\u0026abonent=971552070460","resultCode":null}
+===
+2022-02-08 01:57:06 http://inspigate.com/go4mobility/init/extra request: phone=971552070460&subscription_id=8245315163 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638459346\u0026payed=K7Ka0chJyER1wN-2FioZoFitIU0MCzk2h7qxUBLBEw6SQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245315163\u0026order_id=in0.2638459346\u0026abonent=971552070460","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638459346\u0026payed=K7Ka0chJyER1wN-2FioZoFitIU0MCzk2h7qxUBLBEw6SQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245315163\u0026order_id=in0.2638459346\u0026abonent=971552070460","resultCode":null}
+===
+2022-02-08 01:57:19 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245323022&phone=971526818155&pin=5556, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 01:57:19 pincode submit error: wb_id=8245323022, phone=971526818155, pin=5556 text=Wrong PIN, please try again
+===
+2022-02-08 01:59:06 http://inspigate.com/go4mobility/init/extra request: phone=971552070460&subscription_id=8245316451 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638460309\u0026payed=K7Ka0chJyER1wN-2FioZoFivYde7KjJIEK3FIiDh1zgN8-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245316451\u0026order_id=in0.2638460309\u0026abonent=971552070460","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638460309\u0026payed=K7Ka0chJyER1wN-2FioZoFivYde7KjJIEK3FIiDh1zgN8-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245316451\u0026order_id=in0.2638460309\u0026abonent=971552070460","resultCode":null}
+===
+2022-02-08 01:59:17 http://inspigate.com/go4mobility/init/extra request: phone=971506992530&subscription_id=8245316204 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638460138\u0026payed=K7Ka0chJyER1wN-2FioZoFinBB8GvMOfkMQpZqOTX1OWo-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245316204\u0026order_id=in0.2638460138\u0026abonent=971506992530","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638460138\u0026payed=K7Ka0chJyER1wN-2FioZoFinBB8GvMOfkMQpZqOTX1OWo-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245316204\u0026order_id=in0.2638460138\u0026abonent=971506992530","resultCode":null}
+===
+2022-02-08 01:59:41 http://inspigate.com/go4mobility/init/extra request: phone=971563206673&subscription_id=8245317171 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638460813\u0026payed=K7Ka0chJyER1wN-2FioZoFiqEotKNSHK9TbfrNe6ULLHE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245317171\u0026order_id=in0.2638460813\u0026abonent=971563206673","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638460813\u0026payed=K7Ka0chJyER1wN-2FioZoFiqEotKNSHK9TbfrNe6ULLHE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245317171\u0026order_id=in0.2638460813\u0026abonent=971563206673","resultCode":null}
+===
+2022-02-08 02:00:15 http://inspigate.com/go4mobility/init/extra request: phone=971563206673&subscription_id=8245317171 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638460813\u0026payed=K7Ka0chJyER1wN-2FioZoFiqEotKNSHK9TbfrNe6ULLHE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245317171\u0026order_id=in0.2638460813\u0026abonent=971563206673","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638460813\u0026payed=K7Ka0chJyER1wN-2FioZoFiqEotKNSHK9TbfrNe6ULLHE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245317171\u0026order_id=in0.2638460813\u0026abonent=971563206673","resultCode":null}
+===
+2022-02-08 02:00:58 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245317171&phone=971563206673&pin=6337, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[Ok]]></status>
+  <message><![CDATA[Pin submitted successfully]]></message>
+</result>
+
+===
+2022-02-08 02:01:01 http://inspigate.com/go4mobility/init/extra request: phone=971558520075&subscription_id=8245318746 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638461997\u0026payed=K7Ka0chJyER1wN-2FioZoFipYtdf685yXwLl70Kn5nPfM-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245318746\u0026order_id=in0.2638461997\u0026abonent=971558520075","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638461997\u0026payed=K7Ka0chJyER1wN-2FioZoFipYtdf685yXwLl70Kn5nPfM-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245318746\u0026order_id=in0.2638461997\u0026abonent=971558520075","resultCode":null}
+===
+2022-02-08 02:01:23 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245318746&phone=971558520075&pin=9090, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 02:01:23 pincode submit error: wb_id=8245318746, phone=971558520075, pin=9090 text=Wrong PIN, please try again
+===
+2022-02-08 02:01:36 http://inspigate.com/go4mobility/init/extra request: phone=971558520075&subscription_id=8245318746 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638461997\u0026payed=K7Ka0chJyER1wN-2FioZoFipYtdf685yXwLl70Kn5nPfM-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245318746\u0026order_id=in0.2638461997\u0026abonent=971558520075","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638461997\u0026payed=K7Ka0chJyER1wN-2FioZoFipYtdf685yXwLl70Kn5nPfM-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245318746\u0026order_id=in0.2638461997\u0026abonent=971558520075","resultCode":null}
+===
+2022-02-08 02:05:05 http://inspigate.com/go4mobility/init/extra request: phone=971507682584&subscription_id=8245319264 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638462392\u0026payed=K7Ka0chJyER1wN-2FioZoFihaWyFh-2BOXyxbOZq-2FyT8Ol0-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245319264\u0026order_id=in0.2638462392\u0026abonent=971507682584","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638462392\u0026payed=K7Ka0chJyER1wN-2FioZoFihaWyFh-2BOXyxbOZq-2FyT8Ol0-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245319264\u0026order_id=in0.2638462392\u0026abonent=971507682584","resultCode":null}
+===
+2022-02-08 02:44:58 http://inspigate.com/go4mobility/init/extra request: phone=971528994010&subscription_id=8245352489 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638487430\u0026payed=K7Ka0chJyER1wN-2FioZoFiqhOitiZFSLOiDD5UzHeX4c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245352489\u0026order_id=in0.2638487430\u0026abonent=971528994010","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638487430\u0026payed=K7Ka0chJyER1wN-2FioZoFiqhOitiZFSLOiDD5UzHeX4c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245352489\u0026order_id=in0.2638487430\u0026abonent=971528994010","resultCode":null}
+===
+2022-02-08 02:46:07 http://inspigate.com/go4mobility/init/extra request: phone=971528994010&subscription_id=8245352489 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638487430\u0026payed=K7Ka0chJyER1wN-2FioZoFiqhOitiZFSLOiDD5UzHeX4c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245352489\u0026order_id=in0.2638487430\u0026abonent=971528994010","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638487430\u0026payed=K7Ka0chJyER1wN-2FioZoFiqhOitiZFSLOiDD5UzHeX4c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245352489\u0026order_id=in0.2638487430\u0026abonent=971528994010","resultCode":null}
+===
+2022-02-08 02:47:28 http://inspigate.com/go4mobility/init/extra request: phone=971567414072&subscription_id=8245353158 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638487920\u0026payed=K7Ka0chJyER1wN-2FioZoFiqNIvUmr8BBsPWDjNrbhbmU-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245353158\u0026order_id=in0.2638487920\u0026abonent=971567414072","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638487920\u0026payed=K7Ka0chJyER1wN-2FioZoFiqNIvUmr8BBsPWDjNrbhbmU-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245353158\u0026order_id=in0.2638487920\u0026abonent=971567414072","resultCode":null}
+===
+2022-02-08 02:47:40 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245353158&phone=971567414072&pin=6090, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[Ok]]></status>
+  <message><![CDATA[Pin submitted successfully]]></message>
+</result>
+
+===
+2022-02-08 02:47:59 http://inspigate.com/go4mobility/init/extra request: phone=971568648193&subscription_id=8245353193 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638487951\u0026payed=K7Ka0chJyER1wN-2FioZoFig-2FkQrVsOQDIY7LTivfh-2F-2B0-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245353193\u0026order_id=in0.2638487951\u0026abonent=971568648193","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638487951\u0026payed=K7Ka0chJyER1wN-2FioZoFig-2FkQrVsOQDIY7LTivfh-2F-2B0-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245353193\u0026order_id=in0.2638487951\u0026abonent=971568648193","resultCode":null}
+===
+2022-02-08 02:52:11 http://inspigate.com/go4mobility/init/extra request: phone=971528601556&subscription_id=8245353230 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638487985\u0026payed=K7Ka0chJyER1wN-2FioZoFikRxJOhpYJVT2rUHsixQFVw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245353230\u0026order_id=in0.2638487985\u0026abonent=971528601556","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638487985\u0026payed=K7Ka0chJyER1wN-2FioZoFikRxJOhpYJVT2rUHsixQFVw-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245353230\u0026order_id=in0.2638487985\u0026abonent=971528601556","resultCode":null}
+===
+2022-02-08 02:58:43 http://inspigate.com/go4mobility/init/extra request: phone=971545946209&subscription_id=8245354221 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638488671\u0026payed=K7Ka0chJyER1wN-2FioZoFintT-2BabO-2BUHWOKP-2BhZ2AckA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245354221\u0026order_id=in0.2638488671\u0026abonent=971545946209","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638488671\u0026payed=K7Ka0chJyER1wN-2FioZoFintT-2BabO-2BUHWOKP-2BhZ2AckA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245354221\u0026order_id=in0.2638488671\u0026abonent=971545946209","resultCode":105}
+===
+2022-02-08 03:07:19 http://inspigate.com/go4mobility/init/extra request: phone=971589863127&subscription_id=8221809844 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2621569165\u0026payed=K7Ka0chJyER1wN-2FioZoFivSWiW-2BHF7EeI48qMUmm7oE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17196\u0026wb_subscription_id=8221809844\u0026order_id=in0.2621569165\u0026abonent=971589863127","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2621569165\u0026payed=K7Ka0chJyER1wN-2FioZoFivSWiW-2BHF7EeI48qMUmm7oE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17196\u0026wb_subscription_id=8221809844\u0026order_id=in0.2621569165\u0026abonent=971589863127","resultCode":null}
+===
+2022-02-08 03:13:02 http://inspigate.com/go4mobility/init/extra request: phone=971526115012&subscription_id=8245354489 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638488843\u0026payed=K7Ka0chJyER1wN-2FioZoFil5KOSszUrIKaomnGywVq2o-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245354489\u0026order_id=in0.2638488843\u0026abonent=971526115012","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638488843\u0026payed=K7Ka0chJyER1wN-2FioZoFil5KOSszUrIKaomnGywVq2o-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245354489\u0026order_id=in0.2638488843\u0026abonent=971526115012","resultCode":null}
+===
+2022-02-08 03:17:16 http://inspigate.com/go4mobility/init/extra request: phone=971505871792&subscription_id=8245356212 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638490077\u0026payed=K7Ka0chJyER1wN-2FioZoFii0lNfyUZmM71XJygixistg-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245356212\u0026order_id=in0.2638490077\u0026abonent=971505871792","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638490077\u0026payed=K7Ka0chJyER1wN-2FioZoFii0lNfyUZmM71XJygixistg-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245356212\u0026order_id=in0.2638490077\u0026abonent=971505871792","resultCode":null}
+===
+2022-02-08 03:23:25 phone submit error: wb_id=8245356643, phone=056123160, text=Check your number format and try again
+===
+2022-02-08 03:24:35 phone submit error: wb_id=8245356643, phone=056123160, text=Check your number format and try again
+===
+2022-02-08 03:24:54 phone submit error: wb_id=8245356643, phone=056123160, text=Check your number format and try again
+===
+2022-02-08 03:32:44 http://inspigate.com/go4mobility/init/extra request: phone=971559019714&subscription_id=8245364738 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638496351\u0026payed=K7Ka0chJyER1wN-2FioZoFiuVSwWyaLByCuOtcrfPxF10-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245364738\u0026order_id=in0.2638496351\u0026abonent=971559019714","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638496351\u0026payed=K7Ka0chJyER1wN-2FioZoFiuVSwWyaLByCuOtcrfPxF10-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245364738\u0026order_id=in0.2638496351\u0026abonent=971559019714","resultCode":null}
+===
+2022-02-08 03:33:22 http://inspigate.com/go4mobility/init/extra request: phone=971559019714&subscription_id=8245364738 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638496351\u0026payed=K7Ka0chJyER1wN-2FioZoFiuVSwWyaLByCuOtcrfPxF10-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245364738\u0026order_id=in0.2638496351\u0026abonent=971559019714","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638496351\u0026payed=K7Ka0chJyER1wN-2FioZoFiuVSwWyaLByCuOtcrfPxF10-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245364738\u0026order_id=in0.2638496351\u0026abonent=971559019714","resultCode":null}
+===
+2022-02-08 03:50:30 http://inspigate.com/go4mobility/init/extra request: phone=971544226307&subscription_id=8245368888 extra init response: http_code=573, data=Subscription already exists, id=8224314471.
+===
+2022-02-08 03:50:30 phone submit error: wb_id=8245368888, phone=971544226307, text=Extra init unexpected response
+===
+2022-02-08 03:50:44 http://inspigate.com/go4mobility/init/extra request: phone=971544226307&subscription_id=8245368888 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638499445\u0026payed=K7Ka0chJyER1wN-2FioZoFimQgcfewou7f4I-2FhTHumEaQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245368888\u0026order_id=in0.2638499445\u0026abonent=971544226307","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638499445\u0026payed=K7Ka0chJyER1wN-2FioZoFimQgcfewou7f4I-2FhTHumEaQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245368888\u0026order_id=in0.2638499445\u0026abonent=971544226307","resultCode":null}
+===
+2022-02-08 04:11:50 http://inspigate.com/go4mobility/init/extra request: phone=971558208154&subscription_id=8245388367 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513420\u0026payed=K7Ka0chJyER1wN-2FioZoFil-2FjZR6sRXMxwxH3ifbtjPk-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245388367\u0026order_id=in0.2638513420\u0026abonent=971558208154","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513420\u0026payed=K7Ka0chJyER1wN-2FioZoFil-2FjZR6sRXMxwxH3ifbtjPk-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245388367\u0026order_id=in0.2638513420\u0026abonent=971558208154","resultCode":null}
+===
+2022-02-08 04:18:59 http://inspigate.com/go4mobility/init/extra request: phone=971524165125&subscription_id=8245388955 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513839\u0026payed=K7Ka0chJyER1wN-2FioZoFigBTtuCjEsnuENhe89-2B5vvc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245388955\u0026order_id=in0.2638513839\u0026abonent=971524165125","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513839\u0026payed=K7Ka0chJyER1wN-2FioZoFigBTtuCjEsnuENhe89-2B5vvc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245388955\u0026order_id=in0.2638513839\u0026abonent=971524165125","resultCode":null}
+===
+2022-02-08 04:19:29 http://inspigate.com/go4mobility/init/extra request: phone=971524165157&subscription_id=8245388955 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513839\u0026payed=K7Ka0chJyER1wN-2FioZoFigBTtuCjEsnuENhe89-2B5vvc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245388955\u0026order_id=in0.2638513839\u0026abonent=971524165157","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513839\u0026payed=K7Ka0chJyER1wN-2FioZoFigBTtuCjEsnuENhe89-2B5vvc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245388955\u0026order_id=in0.2638513839\u0026abonent=971524165157","resultCode":null}
+===
+2022-02-08 04:20:35 http://inspigate.com/go4mobility/init/extra request: phone=971558003215&subscription_id=8245388955 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513839\u0026payed=K7Ka0chJyER1wN-2FioZoFigBTtuCjEsnuENhe89-2B5vvc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245388955\u0026order_id=in0.2638513839\u0026abonent=971558003215","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513839\u0026payed=K7Ka0chJyER1wN-2FioZoFigBTtuCjEsnuENhe89-2B5vvc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245388955\u0026order_id=in0.2638513839\u0026abonent=971558003215","resultCode":null}
+===
+2022-02-08 04:21:56 http://inspigate.com/go4mobility/init/extra request: phone=971561712661&subscription_id=8245388966 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513847\u0026payed=K7Ka0chJyER1wN-2FioZoFipYxRfv0Vini1VReng8mk08-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245388966\u0026order_id=in0.2638513847\u0026abonent=971561712661","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513847\u0026payed=K7Ka0chJyER1wN-2FioZoFipYxRfv0Vini1VReng8mk08-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245388966\u0026order_id=in0.2638513847\u0026abonent=971561712661","resultCode":105}
+===
+2022-02-08 04:22:35 http://inspigate.com/go4mobility/init/extra request: phone=971524165157&subscription_id=8245388985 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513855\u0026payed=K7Ka0chJyER1wN-2FioZoFiuUotopg1Fx3cT5bGoKJQ0E-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245388985\u0026order_id=in0.2638513855\u0026abonent=971524165157","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638513855\u0026payed=K7Ka0chJyER1wN-2FioZoFiuUotopg1Fx3cT5bGoKJQ0E-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245388985\u0026order_id=in0.2638513855\u0026abonent=971524165157","resultCode":null}
+===
+2022-02-08 04:26:39 http://inspigate.com/go4mobility/init/extra request: phone=971557033953&subscription_id=8245389213 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638514007\u0026payed=K7Ka0chJyER1wN-2FioZoFistJFYCbfavP8NoBBRW9smM-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245389213\u0026order_id=in0.2638514007\u0026abonent=971557033953","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638514007\u0026payed=K7Ka0chJyER1wN-2FioZoFistJFYCbfavP8NoBBRW9smM-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245389213\u0026order_id=in0.2638514007\u0026abonent=971557033953","resultCode":null}
+===
+2022-02-08 04:44:44 http://inspigate.com/go4mobility/init/extra request: phone=971503932692&subscription_id=8245392787 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638516603\u0026payed=K7Ka0chJyER1wN-2FioZoFirhazsueR9lGIOyHlvoMbD4-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245392787\u0026order_id=in0.2638516603\u0026abonent=971503932692","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638516603\u0026payed=K7Ka0chJyER1wN-2FioZoFirhazsueR9lGIOyHlvoMbD4-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245392787\u0026order_id=in0.2638516603\u0026abonent=971503932692","resultCode":null}
+===
+2022-02-08 04:45:01 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245392787&phone=971503932692&pin=1009, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[Ok]]></status>
+  <message><![CDATA[Pin submitted successfully]]></message>
+</result>
+
+===
+2022-02-08 04:51:26 http://inspigate.com/go4mobility/init/extra request: phone=971505819947&subscription_id=8245401934 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638523037\u0026payed=K7Ka0chJyER1wN-2FioZoFisPEpYnOrDNjLevz2-2BuzA4Q-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245401934\u0026order_id=in0.2638523037\u0026abonent=971505819947","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638523037\u0026payed=K7Ka0chJyER1wN-2FioZoFisPEpYnOrDNjLevz2-2BuzA4Q-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245401934\u0026order_id=in0.2638523037\u0026abonent=971505819947","resultCode":105}
+===
+2022-02-08 04:52:09 http://inspigate.com/go4mobility/init/extra request: phone=971567973471&subscription_id=8245402029 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638523095\u0026payed=K7Ka0chJyER1wN-2FioZoFiuDCsSjt59-2FydAFeUAEuSRc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245402029\u0026order_id=in0.2638523095\u0026abonent=971567973471","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638523095\u0026payed=K7Ka0chJyER1wN-2FioZoFiuDCsSjt59-2FydAFeUAEuSRc-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245402029\u0026order_id=in0.2638523095\u0026abonent=971567973471","resultCode":105}
+===
+2022-02-08 04:55:17 phone submit error: wb_id=8245402566, phone=058803929, text=Check your number format and try again
+===
+2022-02-08 05:00:33 phone submit error: wb_id=8245404228, phone= 56388997, text=Check your number format and try again
+===
+2022-02-08 05:01:04 http://inspigate.com/go4mobility/init/extra request: phone=971527218817&subscription_id=8245404274 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638524685\u0026payed=K7Ka0chJyER1wN-2FioZoFiqZnRPN22kv6oOvD79RsnsA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245404274\u0026order_id=in0.2638524685\u0026abonent=971527218817","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638524685\u0026payed=K7Ka0chJyER1wN-2FioZoFiqZnRPN22kv6oOvD79RsnsA-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245404274\u0026order_id=in0.2638524685\u0026abonent=971527218817","resultCode":null}
+===
+2022-02-08 05:04:55 http://inspigate.com/go4mobility/init/extra request: phone=971529573546&subscription_id=8245404286 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638524693\u0026payed=K7Ka0chJyER1wN-2FioZoFihbv7RjSelsg609meoGFvAQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245404286\u0026order_id=in0.2638524693\u0026abonent=971529573546","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638524693\u0026payed=K7Ka0chJyER1wN-2FioZoFihbv7RjSelsg609meoGFvAQ-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245404286\u0026order_id=in0.2638524693\u0026abonent=971529573546","resultCode":null}
+===
+2022-02-08 05:19:38 http://inspigate.com/go4mobility/init/extra request: phone=971529684481&subscription_id=8245406232 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638526084\u0026payed=K7Ka0chJyER1wN-2FioZoFig8X2Adz5m9DdyjrVj4EBaU-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245406232\u0026order_id=in0.2638526084\u0026abonent=971529684481","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638526084\u0026payed=K7Ka0chJyER1wN-2FioZoFig8X2Adz5m9DdyjrVj4EBaU-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245406232\u0026order_id=in0.2638526084\u0026abonent=971529684481","resultCode":null}
+===
+2022-02-08 05:23:20 http://inspigate.com/go4mobility/init/extra request: phone=971554336998&subscription_id=8245408073 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638527337\u0026payed=K7Ka0chJyER1wN-2FioZoFivpLb9GOVd4l1Gqg9pkK50k-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245408073\u0026order_id=in0.2638527337\u0026abonent=971554336998","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638527337\u0026payed=K7Ka0chJyER1wN-2FioZoFivpLb9GOVd4l1Gqg9pkK50k-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245408073\u0026order_id=in0.2638527337\u0026abonent=971554336998","resultCode":null}
+===
+2022-02-08 05:37:34 http://inspigate.com/go4mobility/init/extra request: phone=971555489696&subscription_id=8245414900 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638532089\u0026payed=K7Ka0chJyER1wN-2FioZoFijYWg0hELtR0-2BisfxXBvN5Q-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245414900\u0026order_id=in0.2638532089\u0026abonent=971555489696","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638532089\u0026payed=K7Ka0chJyER1wN-2FioZoFijYWg0hELtR0-2BisfxXBvN5Q-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245414900\u0026order_id=in0.2638532089\u0026abonent=971555489696","resultCode":null}
+===
+2022-02-08 05:38:13 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245414900&phone=971555489696&pin=3214, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 05:38:13 pincode submit error: wb_id=8245414900, phone=971555489696, pin=3214 text=Wrong PIN, please try again
+===
+2022-02-08 05:38:46 http://inspigate.com/go4mobility/init/extra request: phone=971555489696&subscription_id=8245414900 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638532089\u0026payed=K7Ka0chJyER1wN-2FioZoFijYWg0hELtR0-2BisfxXBvN5Q-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245414900\u0026order_id=in0.2638532089\u0026abonent=971555489696","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638532089\u0026payed=K7Ka0chJyER1wN-2FioZoFijYWg0hELtR0-2BisfxXBvN5Q-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245414900\u0026order_id=in0.2638532089\u0026abonent=971555489696","resultCode":null}
+===
+2022-02-08 05:39:16 http://inspigate.com/go4mobility/init/extra request: phone=971555489696&subscription_id=8245414900 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638532089\u0026payed=K7Ka0chJyER1wN-2FioZoFijYWg0hELtR0-2BisfxXBvN5Q-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245414900\u0026order_id=in0.2638532089\u0026abonent=971555489696","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638532089\u0026payed=K7Ka0chJyER1wN-2FioZoFijYWg0hELtR0-2BisfxXBvN5Q-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245414900\u0026order_id=in0.2638532089\u0026abonent=971555489696","resultCode":null}
+===
+2022-02-08 05:43:57 http://inspigate.com/go4mobility/init/extra request: phone=971415608972&subscription_id=8245419785 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638535482\u0026payed=K7Ka0chJyER1wN-2FioZoFikY6PpmwthC57-2BMbUru2f0Q-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245419785\u0026order_id=in0.2638535482\u0026abonent=971415608972","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638535482\u0026payed=K7Ka0chJyER1wN-2FioZoFikY6PpmwthC57-2BMbUru2f0Q-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245419785\u0026order_id=in0.2638535482\u0026abonent=971415608972","resultCode":112}
+===
+2022-02-08 05:50:00 phone submit error: wb_id=8245432365, phone=25687971, text=Check your number format and try again
+===
+2022-02-08 05:50:32 http://inspigate.com/go4mobility/init/extra request: phone=971525687971&subscription_id=8245432365 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638544946\u0026payed=K7Ka0chJyER1wN-2FioZoFirA4rtJ7NtSb3LQnPxW4FGE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17391\u0026wb_subscription_id=8245432365\u0026order_id=in0.2638544946\u0026abonent=971525687971","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638544946\u0026payed=K7Ka0chJyER1wN-2FioZoFirA4rtJ7NtSb3LQnPxW4FGE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17391\u0026wb_subscription_id=8245432365\u0026order_id=in0.2638544946\u0026abonent=971525687971","resultCode":null}
+===
+2022-02-08 05:51:07 http://inspigate.com/go4mobility/init/extra request: phone=971583029205&subscription_id=8245431414 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638544152\u0026payed=K7Ka0chJyER1wN-2FioZoFig8K-2Fxxct5GeF8VwzU3tV3s-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245431414\u0026order_id=in0.2638544152\u0026abonent=971583029205","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638544152\u0026payed=K7Ka0chJyER1wN-2FioZoFig8K-2Fxxct5GeF8VwzU3tV3s-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245431414\u0026order_id=in0.2638544152\u0026abonent=971583029205","resultCode":null}
+===
+2022-02-08 05:51:51 http://inspigate.com/go4mobility/init/extra request: phone=971583029205&subscription_id=8245431414 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638544152\u0026payed=K7Ka0chJyER1wN-2FioZoFig8K-2Fxxct5GeF8VwzU3tV3s-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245431414\u0026order_id=in0.2638544152\u0026abonent=971583029205","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638544152\u0026payed=K7Ka0chJyER1wN-2FioZoFig8K-2Fxxct5GeF8VwzU3tV3s-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245431414\u0026order_id=in0.2638544152\u0026abonent=971583029205","resultCode":null}
+===
+2022-02-08 05:52:00 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245431414&phone=971583029205&pin=8972, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 05:52:00 pincode submit error: wb_id=8245431414, phone=971583029205, pin=8972 text=Wrong PIN, please try again
+===
+2022-02-08 05:52:10 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245431414&phone=971583029205&pin=8972, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 05:52:10 pincode submit error: wb_id=8245431414, phone=971583029205, pin=8972 text=Wrong PIN, please try again
+===
+2022-02-08 05:52:23 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245431414&phone=971583029205&pin=0971, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 05:52:23 pincode submit error: wb_id=8245431414, phone=971583029205, pin=0971 text=Wrong PIN, please try again
+===
+2022-02-08 05:52:46 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245432365&phone=971525687971&pin=1545, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 05:52:46 pincode submit error: wb_id=8245432365, phone=971525687971, pin=1545 text=Wrong PIN, please try again
+===
+2022-02-08 05:54:05 http://inspigate.com/go4mobility/init/extra request: phone=971586145744&subscription_id=8245432365 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638544946\u0026payed=K7Ka0chJyER1wN-2FioZoFirA4rtJ7NtSb3LQnPxW4FGE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17391\u0026wb_subscription_id=8245432365\u0026order_id=in0.2638544946\u0026abonent=971586145744","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638544946\u0026payed=K7Ka0chJyER1wN-2FioZoFirA4rtJ7NtSb3LQnPxW4FGE-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17391\u0026wb_subscription_id=8245432365\u0026order_id=in0.2638544946\u0026abonent=971586145744","resultCode":null}
+===
+2022-02-08 05:55:23 http://inspigate.com/go4mobility/init/extra request: phone=971554743965&subscription_id=8245433646 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638545921\u0026payed=K7Ka0chJyER1wN-2FioZoFikWi1TiGUmX2M65hzaipN0A-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245433646\u0026order_id=in0.2638545921\u0026abonent=971554743965","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638545921\u0026payed=K7Ka0chJyER1wN-2FioZoFikWi1TiGUmX2M65hzaipN0A-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245433646\u0026order_id=in0.2638545921\u0026abonent=971554743965","resultCode":null}
+===
+2022-02-08 05:55:42 http://inspigate.com/go4mobility/init/extra request: phone=971562044096&subscription_id=8245433415 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638545773\u0026payed=K7Ka0chJyER1wN-2FioZoFii5TiU8BwUS5ZU6xgi6YMkY-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245433415\u0026order_id=in0.2638545773\u0026abonent=971562044096","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638545773\u0026payed=K7Ka0chJyER1wN-2FioZoFii5TiU8BwUS5ZU6xgi6YMkY-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245433415\u0026order_id=in0.2638545773\u0026abonent=971562044096","resultCode":null}
+===
+2022-02-08 05:55:56 http://inspigate.com/go4mobility/init/extra request: phone=971509428225&subscription_id=8245434439 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638546565\u0026payed=K7Ka0chJyER1wN-2FioZoFipthQGC9d-2Fo9DhBOsJERrGU-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17391\u0026wb_subscription_id=8245434439\u0026order_id=in0.2638546565\u0026abonent=971509428225","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638546565\u0026payed=K7Ka0chJyER1wN-2FioZoFipthQGC9d-2Fo9DhBOsJERrGU-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17391\u0026wb_subscription_id=8245434439\u0026order_id=in0.2638546565\u0026abonent=971509428225","resultCode":105}
+===
+2022-02-08 05:56:48 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245433415&phone=971562044096&pin=0852, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 05:56:48 pincode submit error: wb_id=8245433415, phone=971562044096, pin=0852 text=Wrong PIN, please try again
+===
+2022-02-08 05:56:58 http://inspigate.com/go4mobility/init/extra request: phone=971509428225&subscription_id=8245438606 extra init response: http_code=573, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638549854\u0026payed=K7Ka0chJyER1wN-2FioZoFiiMojzGXCFwCPN1O3Bewr0s-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17391\u0026wb_subscription_id=8245438606\u0026order_id=in0.2638549854\u0026abonent=971509428225","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638549854\u0026payed=K7Ka0chJyER1wN-2FioZoFiiMojzGXCFwCPN1O3Bewr0s-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17391\u0026wb_subscription_id=8245438606\u0026order_id=in0.2638549854\u0026abonent=971509428225","resultCode":105}
+===
+2022-02-08 05:57:22 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245433415&phone=971562044096&pin=4603, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 05:57:22 pincode submit error: wb_id=8245433415, phone=971562044096, pin=4603 text=Wrong PIN, please try again
+===
+2022-02-08 05:58:05 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245433415&phone=971562044096&pin=4603, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 05:58:05 pincode submit error: wb_id=8245433415, phone=971562044096, pin=4603 text=Wrong PIN, please try again
+===
+2022-02-08 05:59:07 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245433415&phone=971562044096&pin=4603, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 05:59:07 pincode submit error: wb_id=8245433415, phone=971562044096, pin=4603 text=Wrong PIN, please try again
+===
+2022-02-08 06:02:33 http://inspigate.com/go4mobility/init/extra request: phone=971554513185&subscription_id=8245433727 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638545997\u0026payed=K7Ka0chJyER1wN-2FioZoFiognj7Zrai1UNCG3vjmYs8E-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245433727\u0026order_id=in0.2638545997\u0026abonent=971554513185","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638545997\u0026payed=K7Ka0chJyER1wN-2FioZoFiognj7Zrai1UNCG3vjmYs8E-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245433727\u0026order_id=in0.2638545997\u0026abonent=971554513185","resultCode":null}
+===
+2022-02-08 06:02:35 phone submit error: wb_id=8245433731, phone=056381585, text=Check your number format and try again
+===
+2022-02-08 06:02:42 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245433727&phone=971554513185&pin=4513, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 06:02:42 pincode submit error: wb_id=8245433727, phone=971554513185, pin=4513 text=Wrong PIN, please try again
+===
+2022-02-08 06:02:49 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245433727&phone=971554513185&pin=4513, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 06:02:49 pincode submit error: wb_id=8245433727, phone=971554513185, pin=4513 text=Wrong PIN, please try again
+===
+2022-02-08 06:02:54 http://inspigate.com/go4mobility/init/extra request: phone=971555417881&subscription_id=8245434832 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638546889\u0026payed=K7Ka0chJyER1wN-2FioZoFiv9jCtMNcqoPMLucDTBtK6c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245434832\u0026order_id=in0.2638546889\u0026abonent=971555417881","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638546889\u0026payed=K7Ka0chJyER1wN-2FioZoFiv9jCtMNcqoPMLucDTBtK6c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245434832\u0026order_id=in0.2638546889\u0026abonent=971555417881","resultCode":null}
+===
+2022-02-08 06:02:55 http://inspigate.com/go4mobility/init/extra request: phone=971501003420&subscription_id=8245433718 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638545991\u0026payed=K7Ka0chJyER1wN-2FioZoFisAstMtHjyfXbR-2BpmqPEhFo-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245433718\u0026order_id=in0.2638545991\u0026abonent=971501003420","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638545991\u0026payed=K7Ka0chJyER1wN-2FioZoFisAstMtHjyfXbR-2BpmqPEhFo-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245433718\u0026order_id=in0.2638545991\u0026abonent=971501003420","resultCode":null}
+===
+2022-02-08 06:03:03 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245433727&phone=971554513185&pin=4513, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 06:03:03 pincode submit error: wb_id=8245433727, phone=971554513185, pin=4513 text=Wrong PIN, please try again
+===
+2022-02-08 06:03:09 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245433718&phone=971501003420&pin=2580, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 06:03:09 pincode submit error: wb_id=8245433718, phone=971501003420, pin=2580 text=Wrong PIN, please try again
+===
+2022-02-08 06:03:12 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245434832&phone=971555417881&pin=5554, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 06:03:12 pincode submit error: wb_id=8245434832, phone=971555417881, pin=5554 text=Wrong PIN, please try again
+===
+2022-02-08 06:03:18 http://inspigate.com/go4mobility/init/extra request: phone=971555417881&subscription_id=8245434832 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638546889\u0026payed=K7Ka0chJyER1wN-2FioZoFiv9jCtMNcqoPMLucDTBtK6c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=success\u0026service_id=17527\u0026wb_subscription_id=8245434832\u0026order_id=in0.2638546889\u0026abonent=971555417881","failUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638546889\u0026payed=K7Ka0chJyER1wN-2FioZoFiv9jCtMNcqoPMLucDTBtK6c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=failed\u0026service_id=17527\u0026wb_subscription_id=8245434832\u0026order_id=in0.2638546889\u0026abonent=971555417881","resultCode":null}
+===
+2022-02-08 06:03:34 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245433727&phone=971554513185&pin=4513, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 06:03:34 pincode submit error: wb_id=8245433727, phone=971554513185, pin=4513 text=Wrong PIN, please try again
+===
+2022-02-08 06:03:46 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245433718&phone=971501003420&pin=2580, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 06:03:46 pincode submit error: wb_id=8245433718, phone=971501003420, pin=2580 text=Wrong PIN, please try again
+===
+2022-02-08 06:04:03 http://inspigate.com/go4mobility/pin_submit request: wb_id=8245433718&phone=971501003420&pin=2580, response: <?xml version="1.0" encoding="UTF-8"?>
+<result>
+  <status><![CDATA[failed]]></status>
+  <message><![CDATA[Error code 118]]></message>
+</result>
+
+===
+2022-02-08 06:04:03 pincode submit error: wb_id=8245433718, phone=971501003420, pin=2580 text=Wrong PIN, please try again
+===
+2022-02-08 06:04:06 http://inspigate.com/go4mobility/init/extra request: phone=971567395006&subscription_id=8245434832 extra init response: http_code=200, data={"successUrl":"http:\/\/go.games-universe.online\/return?domain=aeg.games-universe.online\u0026init_id=in0.2638546889\u0026payed=K7Ka0chJyER1wN-2FioZoFiv9jCtMNcqoPMLucDTBtK6c-3D\u0026country=ae\u0026operator=go4mobility_etisalat\u0026status=

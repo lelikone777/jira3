@@ -8,44 +8,76 @@
     <title>Games Universe</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>
-        function validate_LoginForm() {
 
-            var msisdn = document.getElementById('msisdn').value;
-            msisdn = msisdn.replace(/^0+/,'');
-            msisdn = msisdn.replace(/^\+/,'');
-            msisdn = msisdn.replace(/^971/,'');
-
-
-            if ((msisdn == null || msisdn == "")) {
-                alert("Please enter mobile number");
-                return false;
-            }
-            else if (!validatePhone(msisdn)) {
-                alert("Please Enter digits only");
-                return false;
-            } else {
-                window.location.href = "pin.html";
-                return true;
-            }
-
-        }
-
-        function validatePhone(txtPhone) {
-            var filter = /^[0-9-+]+$/;
-            return filter.test(txtPhone)
-        }
-
-    </script>
     <style>
-        .inputWrap input {
-            text-align: left;
+        form {
+            margin-top: 10px;
         }
+        .actionText {
+            font-size: 21px;
+            color: #ff5d10;
+        }
+        .infoText {
+            max-width: 75%;
+            margin: 3px auto 10px;
+            font-size: 18px;
+            color: #8a9499;
+            font-weight: bold;
+        }
+        .inputWrapper {
+            width: 288px;
+            margin: 0 auto;
+            padding-bottom: 3px;
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            color: #8a9499;
+            border-bottom: 2px solid #878787;
+        }
+        .inputPinBlock {
+            margin: 0 auto;
+        }
+        .inputBlock {
+            position: relative;
+            width: 160px;
+        }
+        .mainInput {
+            width: 100%;
+            font-family: inherit;
+            color: #8a9499;
+            font-size: inherit;
+            font-weight: inherit;
+            background-color: transparent;
+            border: none;
+            pointer-events: none;
+            text-align: center;
+        }
+        button {
+            width: 288px;
+            height: 68px;
+            margin-top: 15px;
+            padding-top: 2px;
+            font-family: inherit;
+            color: #fff;
+            font-size: 27.5px;
+            text-transform: uppercase;
+            background-color: #4dc3ff;
+            border: none;
+            border-radius: 15px;
+        }
+        .cursor {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .box {
+            height: 55px;
+        }
+
 
     </style>
 </head>
 <body>
-    <input type="text" class="hiddenInput" inputmode="numeric" maxlength="9">
+    <input type="text" class="hiddenInput" inputmode="numeric" maxlength="4">
     <div class="wrapper">
     <div class="languages">
         <div class="container">
@@ -66,37 +98,42 @@
             <img class="main-img" src="images/main-image.png">
         </div>
     </div>
-    <div class="phone-title">
-        <div class="container">
-            <h3 class="only-en">Enter your Phone Number</h3>
-            <h3 class="only-ar">ادخل رقم هاتفك المحمول للحصول على الرقم السري</h3>
-        </div>
-    </div>
+<!--    <div class="phone-title">-->
+<!--        <div class="container">-->
+<!--            <h3 class="only-en">Enter your Phone Number</h3>-->
+<!--            <h3 class="only-ar">ادخل رقم هاتفك المحمول للحصول على الرقم السري</h3>-->
+<!--        </div>-->
+<!--    </div>-->
     <div class="phone-form">
         <div class="container">
+            <form method="POST">
+
+                   <div class="box">
+                       <p  class="only-ar actionText">فعل حسابك</p>
+                       <p  class="only-en actionText">Activate your account</p>
 
 
+                       <p class="only-ar infoText">
+                           يجب أن يصل الرمز خلال الثلاثين ثانية القادمة.
+                       </p>
+                       <p class="only-en infoText">
+                           The code should arrive within the next 30 second.
+                       </p>
+                   </div>
+                    <br>
 
-            <form method="post" id="subConfirm" action="pin.php">
-<!--                <span class="error"></span>-->
-                <div class="MSISDNclass">
-                    <div class="inputWrap" dir="ltr">
-                        <img class="flag" src="images/flag%20.png">
-                        <div class="region-code">+971</div>
-                        <div class="inputBlock">
-                            <input type="text" class="mainInput" placeholder="XXXXXXXXX" name="msisdn" id="msisdn" maxlength="18" inputmode="tel" required>
-                            <div class="cursor"></div>
-                        </div>
+                <div class="inputWrapper" >
+                    <div class="inputBlock inputPinBlock">
+                        <input type="text" class="mainInput" name="pin" placeholder="_ _ _ _" maxlength="4" inputmode="numeric" required>
+                        <div class="cursor"></div>
                     </div>
                 </div>
-                <input type="hidden" name="lang" value="en">
-                <button id="confirm" class="buttons" type="submit" name="confirm" onclick="return validate_LoginForm();">
+                <button>
                     <span class="only-en">CONTINUE</span>
                     <span class="only-ar">إشترك</span>
                 </button>
             </form>
-
-
+            <p class="error"></p>
 
         </div>
     </div>
@@ -146,21 +183,7 @@
                 console.log('null');
             }
 
-            // if (document.cookie.search("en") != -1 || document.cookie == "" || document.cookie == '') {
-            //     document.getElementsByTagName("html")[0].dir = "ltr";
-            //     document.getElementsByTagName("html")[0].lang = "en";
-            //     console.log('en')
-            //     document.cookie = "lang=en";
-            //     $('.only-en').show();
-            // }
-            //
-            // if (document.cookie.search("ar") != -1) {
-            //     document.getElementsByTagName("html")[0].dir = "rtl";
-            //     document.getElementsByTagName("html")[0].lang = "ar";
-            //     console.log('ar')
-            //     document.cookie = "lang=ar";
-            //     $('.only-ar').show();
-            // }
+
 
             $('.optionEn').click(function() {
                 document.getElementsByTagName("html")[0].dir = "ltr";
@@ -258,9 +281,8 @@
         }
 
 
-
-
     </script>
+    <script src="js/script.js"></script>
     <script>
         document.onsubmit = () => {
             document.querySelector('button[type=submit]').setAttribute('disabled', 'disabled');
@@ -274,73 +296,25 @@
             else input.setAttribute('maxlength', '9');
         }
     </script>
+    <script>
+        let form = document.querySelector('form');
+        let input = document.querySelector('.hiddenInput');
 
+        input.oninput = () => {
+            input.value = input.value.replace(/[^0-9]/, '');
+        }
+        form.onsubmit = (e) => {
+            e.preventDefault();
 
-<!--    <script>-->
+            if (input.value.length === 4 && !input.value.match(/([0-9])\1{3,}/) && input.value !== '1234') {
+                form.submit();
+                document.querySelector('button[type=submit]').setAttribute('disabled', 'disabled');
+            } else {
+                input.value = '';
+                document.querySelector('.error').innerHTML = 'Wrong PIN, please try again';
+            }
+        }
+    </script>
 
-<!--        language();-->
-
-<!--        function language() {-->
-<!--            var userLang = navigator.language || navigator.userLanguage;-->
-<!--            $('.only-en').hide();-->
-<!--            $('.only-ar').hide();-->
-<!--            var x = document.cookie;-->
-<!--            if (x == null) {-->
-<!--                $('.only-en').show();-->
-
-<!--            }-->
-<!--            if (x.search("en") != -1 || x == "" || x == '') {-->
-<!--                document.getElementsByTagName("html")[0].dir = "ltr";-->
-<!--                document.getElementsByTagName("html")[0].lang = "en";-->
-<!--                console.log(2);-->
-<!--                document.cookie = "lang=en";-->
-<!--                $('.only-en').show();-->
-
-<!--            } else {-->
-<!--                console.log(3);-->
-<!--                document.cookie = "lang=ar";-->
-<!--                $('.only-ar').show();-->
-
-<!--            }-->
-<!--            if (x.search("ar") != -1) {-->
-<!--                document.getElementsByTagName("html")[0].dir = "rtl";-->
-<!--                document.getElementsByTagName("html")[0].lang = "ar";-->
-<!--                v-->
-
-<!--            }-->
-<!--            $('.optionEn').addClass('current');-->
-<!--            $('.optionAr').click(function() {-->
-<!--                document.getElementsByTagName("html")[0].dir = "rtl";-->
-<!--                document.getElementsByTagName("html")[0].lang = "ar";-->
-<!--                $('#container').css({-->
-<!--                    'text-align': 'right'-->
-<!--                });-->
-<!--                $(this).addClass('current');-->
-<!--                $('.only-en').hide();-->
-<!--                $('.optionEn').removeClass('current');-->
-<!--                $('.only-ar').show();-->
-<!--                $('#msisdn').attr('placeholder', 'XXXXXXXXX');-->
-<!--                document.cookie = "lang=ar";-->
-<!--                var x = document.cookie-->
-<!--            });-->
-<!--            $('.optionEn').click(function() {-->
-<!--                document.getElementsByTagName("html")[0].dir = "ltr";-->
-<!--                document.getElementsByTagName("html")[0].lang = "en";-->
-<!--                $('#container').css({-->
-<!--                    'text-align': 'left'-->
-<!--                });-->
-<!--                $(this).addClass('current');-->
-<!--                $('.only-ar').hide();-->
-<!--                $('.optionAr').removeClass('current');-->
-<!--                $('.only-en ').show();-->
-<!--                $('#msisdn').attr('placeholder', 'Phone Number');-->
-<!--                document.cookie = "lang=en";-->
-<!--                var x = document.cookie-->
-<!--            });-->
-<!--            if (userLang == 'ar' && $('.optionEn').hasClass("current")) {-->
-<!--                $('.optionAr').click()-->
-<!--            }-->
-<!--        }-->
-<!--    </script>-->
 </body>
 </html>

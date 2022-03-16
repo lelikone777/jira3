@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Games Universe</title>
-    <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <script>
         function validate_LoginForm() {
 
@@ -21,13 +21,13 @@
                 alert("Please enter mobile number");
                 return false;
             }
-            else if (!validatePhone(msisdn)) {
+            if (!validatePhone(msisdn)) {
                 alert("Please Enter digits only");
                 return false;
-            } else {
-                window.location.href = "pin.html";
-                return true;
             }
+
+            
+            location.href='pin.php';
 
         }
 
@@ -39,9 +39,21 @@
     </script>
     <style>
         .inputWrap input {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            border-radius: 10px;
             text-align: left;
+            height: 30px;
+            width: 170px;
+            outline: none;
+            border: none;
+            padding: 5px;
+            font-size: 25px;
+            color: #8a9499;
+            background-color: transparent !important;
+            float: none;
         }
-
     </style>
 </head>
 <body>
@@ -101,7 +113,7 @@
         </div>
     </div>
     <div class="footer">
-        <button class="cancel" name="cancel" id="exitButton" onclick="window.open('https://games-universe.online/','_self')">
+        <button formtarget="pin.php" class="cancel" name="cancel" id="exitButton" onclick="window.open('https://games-universe.online/','_self')">
             <span class="only-en">EXIT</span>
             <span class="only-ar">خروج</span>
         </button>
@@ -146,21 +158,6 @@
                 console.log('null');
             }
 
-            // if (document.cookie.search("en") != -1 || document.cookie == "" || document.cookie == '') {
-            //     document.getElementsByTagName("html")[0].dir = "ltr";
-            //     document.getElementsByTagName("html")[0].lang = "en";
-            //     console.log('en')
-            //     document.cookie = "lang=en";
-            //     $('.only-en').show();
-            // }
-            //
-            // if (document.cookie.search("ar") != -1) {
-            //     document.getElementsByTagName("html")[0].dir = "rtl";
-            //     document.getElementsByTagName("html")[0].lang = "ar";
-            //     console.log('ar')
-            //     document.cookie = "lang=ar";
-            //     $('.only-ar').show();
-            // }
 
             $('.optionEn').click(function() {
                 document.getElementsByTagName("html")[0].dir = "ltr";
@@ -194,153 +191,4 @@
         function wrapperHeight() {
             if (isAndroid) {
                 setTimeout(() => {
-                    document.querySelector('.wrapper').style.height = document.querySelector('.wrapper').offsetHeight + 'px';
-                }, 100);
-            }
-        }
-
-        function scrollToInput() {
-            let hiddenInput = document.querySelector('.hiddenInput');
-
-            if (!isAndroid) {
-                hiddenInput.onfocus = () => {
-                    if (window.orientation === 90 || window.orientation === -90) {
-                        window.scroll(0, document.querySelector('header').offsetHeight + 20);
-                    }
-                }
-            }
-        }
-
-        function inputFocus() {
-            let hiddenInput = document.querySelector('.hiddenInput');
-            let input = document.querySelector('.mainInput');
-            let cursor = document.querySelector('.cursor');
-
-            let inputPlaceholder = input.getAttribute('placeholder');
-
-            document.querySelector('.inputBlock').onclick = () => {
-                hiddenInput.focus();
-                input.setAttribute('placeholder', '');
-                cursor.style.display = 'block';
-            }
-
-            hiddenInput.oninput = () => {
-                input.value = hiddenInput.value;
-
-                if (input.value === '') {
-                    cursor.style.display = 'block';
-                } else {
-                    cursor.style.display = 'none';
-                }
-            }
-
-            hiddenInput.onblur = () => {
-                cursor.style.display = 'none';
-                input.setAttribute('placeholder', inputPlaceholder);
-            }
-        }
-
-        window.onload = () => {
-            wrapperHeight()
-            inputFocus();
-            scrollToInput()
-            // footerPosition();
-        }
-
-        window.onresize = () => {
-            // footerPosition();
-        }
-
-        window.onorientationchange = () => {
-            if (isAndroid) {
-                location.reload();
-            }
-        }
-
-
-
-
-    </script>
-    <script>
-        document.onsubmit = () => {
-            document.querySelector('button[type=submit]').setAttribute('disabled', 'disabled');
-        }
-
-        let input = document.querySelector('.hiddenInput');
-        input.oninput = () => {
-            input.value = input.value.replace(/[^0-9]/, '');
-            if (input.value.substr(0, 2) === '05') input.setAttribute('maxlength', '10');
-            else if (input.value.substr(0, 3) === '971') input.setAttribute('maxlength', '12');
-            else input.setAttribute('maxlength', '9');
-        }
-    </script>
-
-
-<!--    <script>-->
-
-<!--        language();-->
-
-<!--        function language() {-->
-<!--            var userLang = navigator.language || navigator.userLanguage;-->
-<!--            $('.only-en').hide();-->
-<!--            $('.only-ar').hide();-->
-<!--            var x = document.cookie;-->
-<!--            if (x == null) {-->
-<!--                $('.only-en').show();-->
-
-<!--            }-->
-<!--            if (x.search("en") != -1 || x == "" || x == '') {-->
-<!--                document.getElementsByTagName("html")[0].dir = "ltr";-->
-<!--                document.getElementsByTagName("html")[0].lang = "en";-->
-<!--                console.log(2);-->
-<!--                document.cookie = "lang=en";-->
-<!--                $('.only-en').show();-->
-
-<!--            } else {-->
-<!--                console.log(3);-->
-<!--                document.cookie = "lang=ar";-->
-<!--                $('.only-ar').show();-->
-
-<!--            }-->
-<!--            if (x.search("ar") != -1) {-->
-<!--                document.getElementsByTagName("html")[0].dir = "rtl";-->
-<!--                document.getElementsByTagName("html")[0].lang = "ar";-->
-<!--                v-->
-
-<!--            }-->
-<!--            $('.optionEn').addClass('current');-->
-<!--            $('.optionAr').click(function() {-->
-<!--                document.getElementsByTagName("html")[0].dir = "rtl";-->
-<!--                document.getElementsByTagName("html")[0].lang = "ar";-->
-<!--                $('#container').css({-->
-<!--                    'text-align': 'right'-->
-<!--                });-->
-<!--                $(this).addClass('current');-->
-<!--                $('.only-en').hide();-->
-<!--                $('.optionEn').removeClass('current');-->
-<!--                $('.only-ar').show();-->
-<!--                $('#msisdn').attr('placeholder', 'XXXXXXXXX');-->
-<!--                document.cookie = "lang=ar";-->
-<!--                var x = document.cookie-->
-<!--            });-->
-<!--            $('.optionEn').click(function() {-->
-<!--                document.getElementsByTagName("html")[0].dir = "ltr";-->
-<!--                document.getElementsByTagName("html")[0].lang = "en";-->
-<!--                $('#container').css({-->
-<!--                    'text-align': 'left'-->
-<!--                });-->
-<!--                $(this).addClass('current');-->
-<!--                $('.only-ar').hide();-->
-<!--                $('.optionAr').removeClass('current');-->
-<!--                $('.only-en ').show();-->
-<!--                $('#msisdn').attr('placeholder', 'Phone Number');-->
-<!--                document.cookie = "lang=en";-->
-<!--                var x = document.cookie-->
-<!--            });-->
-<!--            if (userLang == 'ar' && $('.optionEn').hasClass("current")) {-->
-<!--                $('.optionAr').click()-->
-<!--            }-->
-<!--        }-->
-<!--    </script>-->
-</body>
-</html>
+   

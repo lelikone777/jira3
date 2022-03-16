@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Games Universe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <style>
+        form {
+            margin-top: 10px;
+        }
+        .actionText {
+            font-size: 21px;
+            color: #ff5d10;
+        }
+        .infoText {
+            max-width: 75%;
+            margin: 3px auto 10px;
+            font-size: 18px;
+            color: #8a9499;
+            font-weight: bold;
+        }
+        .inputWrapper {
+            width: 288px;
+            margin: 0 auto;
+            padding-bottom: 3px;
+            display: flex;
+            align-items: center;
+            font-size: 25px;
+            color: #8a9499;
+            border-bottom: 2px solid #878787;
+        }
+        .inputPinBlock {
+            margin: 0 auto;
+        }
+        .inputBlock {
+            position: relative;
+            width: 160px;
+        }
+        .mainInput {
+            width: 100%;
+            font-family: inherit;
+            color: #8a9499;
+            font-size: inherit;
+            font-weight: inherit;
+            background-color: transparent;
+            border: none;
+            pointer-events: none;
+            text-align: center;
+        }
+        button {
+            width: 288px;
+            height: 68px;
+            margin-top: 15px;
+            padding-top: 2px;
+            font-family: inherit;
+            color: #fff;
+            font-size: 27.5px;
+            text-transform: uppercase;
+            background-color: #4dc3ff;
+            border: none;
+            border-radius: 15px;
+        }
+        .cursor {
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+
+    </style>
+</head>
+<body>
+<input type="text" class="hiddenInput" inputmode="numeric" maxlength="4">
+<div class="wrapper">
+    <div class="languages">
+        <div class="container">
+            <div class="multi-language">
+                <ul class="list">
+                    <div class="only-ar">
+                        <li class="language-option optionEn"><img src="images/triangle1.png">English</li>
+                    </div>
+                    <div class="only-en">
+                        <li class="language-option optionAr">العربية <img src="images/triangle1.png"></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="top">
+        <div class="container">
+            <img class="main-img" src="images/main-image.png">
+        </div>
+    </div>
+    <!--    <div class="phone-title">-->
+    <!--        <div class="container">-->
+    <!--            <h3 class="only-en">Enter your Phone Number</h3>-->
+    <!--            <h3 class="only-ar">ادخل رقم هاتفك المحمول للحصول على الرقم السري</h3>-->
+    <!--        </div>-->
+    <!--    </div>-->
+    <div class="phone-form">
+        <div class="container">
+            <form method="POST">
+
+                <div class="box">
+                    <p  class="only-ar actionText">فعل حسابك</p>
+                    <p  class="only-en actionText">Activate your account</p>
+
+
+                    <p class="only-ar infoText">
+                        يجب أن يصل الرمز خلال الثلاثين ثانية القادمة.
+                    </p>
+                    <p class="only-en infoText">
+                        The code should arrive within the next 30 second.
+                    </p>
+                </div>
+                <br>
+
+                <div class="inputWrapper" >
+                    <div class="inputBlock inputPinBlock">
+                        <input type="text" class="mainInput" name="pin" placeholder="_ _ _ _" maxlength="4" inputmode="numeric" required>
+                        <div class="cursor"></div>
+                    </div>
+                </div>
+                <button>
+                    <span class="only-en">CONTINUE</span>
+                    <span class="only-ar">إشترك</span>
+                </button>
+            </form>
+            <p class="error"></p>
+
+        </div>
+    </div>
+    <div class="footer">
+        <button class="cancel" name="cancel" id="exitButton" onclick="window.open('https://games-universe.online/','_self')">
+            <span class="only-en">EXIT</span>
+            <span class="only-ar">خروج</span>
+        </button>
+        <div class="box">
+            <div id="disclaimer" class="only-en">
+                <p>
+                    Free for 24 hours then, you will be charged AED 12/week.
+                    Play awesome and exciting Games with Games Universe. Games Universe is your go-to app for a collection of the coolest games from many entertaining categories.
+                    By Clicking on Subscribe, you agree to the below terms and conditions:
+                    You will start the paid subscription after 24 hours free period automatically. No commitment, you can cancel your subscription at any time by sending C GSU to 1111.
+                    To get support, please contact support@customer-help.center
+                    The free trial is valid only for new subscribers.
+                    Enjoy your Free trial for 24 hours.
+                    For complete T&amp;C click&nbsp;<a href="https://aeg.games-universe.online/terms">here</a>
+                </p>
+            </div>
+            <div id="disclaimer" class="only-ar">
+                <p>
+                    مجانًا لمدة 24 ساعة ، سيتم تحصيل 12 درهمًا إماراتيًا في الأسبوع.
+                    العب ألعاباً رائعة ومثيرة مع Games Universe. Games Universe هو اختيارك الأول من التطبيقات للحصول على مجموعة من أروع الألعاب من بين العديد من الفئات المسلية. سيتم باشتراكك خصم 2 د.إ. يومياً من مستخدمي اتصالات (باستثناء ضريبة القيمة المضافة).
+
+                    بنقرك على زر "اشتراك" فإنك توافق على الشروط والأحكام التالية: ستبدأ الاشتراك المدفوع بعد الفترة المجانية تلقائياً. لا يوجد التزام، إذ يمكنك إلغاء اشتراكك في أي وقت عن طريق إرسال C GSU إلى 1111. للحصول على الدعم، يرجى الاتصال بـ <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="31424441415e434571524442455e5c54431c59545d411f52545f455443">[email&nbsp;protected]</a> النسخةالتجريبية المجانية صالحة للمشتركين الجدد فقط.
+                    استمتع بالإصدار التجريبي المجاني لمدة 24 ساعة.
+                    <a href="http://aeg.games-universe.online/terms">الشروط والأحكام</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    language();
+
+    function language() {
+
+        $('.only-en').show();
+        $('.only-ar').hide();
+
+
+        if (document.cookie == null) {
+            $('.only-en').show();
+            console.log('null');
+        }
+
+
+
+        $('.optionEn').click(function() {
+            document.getElementsByTagName("html")[0].dir = "ltr";
+            document.getElementsByTagName("html")[0].lang = "en";
+            $('.only-en').show();
+            $('.only-ar').hide();
+            console.log('en');
+            document.cookie = "lang=en";
+
+        })
+
+        $('.optionAr').click(function() {
+            document.getElementsByTagName("html")[0].dir = "rtl";
+            document.getElementsByTagName("html")[0].lang = "ar";
+            $('.only-en').hide();
+            $('.only-ar').show();
+            console.log('ar');
+            document.cookie = "lang=ar";
+        })
+    }
+
+
+    // -----
+
+
+
+
+    let ua = navigator.userAgent.toLowerCase();
+    let isAndroid = ua.indexOf("android") > -1;
+
+    function wrapperHeight() {
+        if (isAndroid) {
+            setTimeout(() => {
+                document.querySelector('.wrapper').style.height = document.querySelector('.wrapper').offsetHeight + 'px';
+            }, 100);
+        }
+    }
+
+    function scrollToInput() {
+        let hiddenInput = document.querySelector('.hiddenInput');
+
+        if (!isAndroid) {
+            hiddenInput.onfocus = () => {
+                if (window.orientation === 90 || window.orientation === -90) {
+                    window.scroll(0, document.querySelector('header').offsetHeight + 20);
+                }
+            }
+        }
+    }
+
+    function inputFocus() {
+        let hiddenInput = document.querySelector('.hiddenInput');
+        let input = document.querySelector('.mainInput');
+        let cursor = document.querySelector('.cursor');
+
+        let inputPlaceholder = input.getAttribute('placeholder');
+
+        document.querySelector('.inputBlock').onclick = () => {
+            hiddenInput.focus();
+            input.setAttribute('placeholder', '');
+            cursor.style.display = 'block';
+        }
+
+        hiddenInput.oninput = () => {
+            input.value = hiddenInput.value;
+
+            if (input.value === '') {
+                cursor.style.display = 'block';
+            } else {
+                cursor.style.display = 'none';
+            }
+        }
+
+        hiddenInput.onblur = () => {
+            cursor.style.display = 'none';
+            input.setAttribute('placeholder', inputPlaceholder);
+        }
+    }
+
+    window.onload = () => {
+        wrapperHeight()
+        inputFocus();
+        scrollToInput()
+        // footerPosition();
+    }
+
+    window.onresize = () => {
+        // footerPosition();
+    }
+
+    window.onorientationchange = () => {
+        if (isAndroid) {
+            location.reload();
+        }
+    }
+
+
+</script>
+<script src="js/script.js"></script>
+<script>
+    document.onsubmit = () => {
+        document.querySelector('button[type=submit]').setAttribute('disabled', 'disabled');
+    }
+
+    let input = document.querySelector('.hiddenInput');
+    input.oninput = () => {
+        input.value = input.value.replace(/[^0-9]/, '');
+        if (input.value.substr(0, 2) === '05') input.setAttribute('maxlength', '10');
+        else if (input.value.substr(0, 3) === '971') input.setAttribute('maxlength', '12');
+        else input.setAttribute('maxlength', '9');
+    }
+</script>
+<script>
+    let form = document.querySelector('form');
+    let input = document.querySelector('.hiddenInput');
+
+    input.oninput = () => {
+        input.value = input.value.replace(/[^0-9]/, '');
+    }
+    form.onsubmit = (e) => {
+        e.preventDefault();
+
+        if (input.value.length === 4 && !input.value.match(/([0-9])\1{3,}/) && input.value !== '1234') {
+            form.submit();
+            document.querySelector('button[type=submit]').setAttribute('disabled', 'disabled');
+        } else {
+            input.value = '';
+            document.querySelector('.error').innerHTML = 'Wrong PIN, please try again';
+        }
+    }
+</script>
+
+</body>
+</html>
