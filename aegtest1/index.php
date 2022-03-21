@@ -1,346 +1,66 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Games Universe</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>
-        function validate_LoginForm() {
+<?php
 
-            var msisdn = document.getElementById('msisdn').value;
-            msisdn = msisdn.replace(/^0+/,'');
-            msisdn = msisdn.replace(/^\+/,'');
-            msisdn = msisdn.replace(/^971/,'');
+require_once __DIR__ . '/vendor/autoload.php';
+require_once __DIR__ . '/../../_helpers/vendor/autoload.php';
 
+use App\LandInit;
+use App\Logs;
+use App\Exceptions\InvalidPhoneNumberException;
+use App\Exceptions\ExtraInitException;
+use Service_landing\Helpers\Filter;
+use Service_landing\Helpers\Http;
 
-            if ((msisdn == null || msisdn == "")) {
-                alert("Please enter mobile number");
-                return false;
-            }
-            else if (!validatePhone(msisdn)) {
-                alert("Please Enter digits only");
-                return false;
-            } else {
-                window.location.href = "pin.html";
-                return true;
-            }
+error_reporting(E_ALL);
+ini_set('display_startup_errors', 1);
+ini_set('display_errors', '1');
 
-        }
+$res = '';
 
-        function validatePhone(txtPhone) {
-            var filter = /^[0-9-+]+$/;
-            return filter.test(txtPhone)
-        }
+$sub_land = (!empty($_GET['sub_land'])) ? $_GET['sub_land'] : 'main';
+$currentUrl = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
-    </script>
-    <style>
-        .inputWrap input {
-            text-align: left;
-        }
+// if (empty($_GET['ext_id'])) {
+//     Http::redirect('https://www.google.com/');
+// }
 
-    </style>
-</head>
-<body>
-    <input type="text" class="hiddenInput" inputmode="numeric" maxlength="9">
-    <div class="wrapper">
-    <div class="languages">
-        <div class="container">
-            <div class="multi-language">
-                <ul class="list">
-                    <div class="only-ar">
-                        <li class="language-option optionEn"><img src="images/triangle1.png">English</li>
-                    </div>
-                    <div class="only-en">
-                        <li class="language-option optionAr">العربية <img src="images/triangle1.png"></li>
-                    </div>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="top">
-        <div class="container">
-            <img class="main-img" src="images/main-image.png">
-        </div>
-    </div>
-    <div class="phone-title">
-        <div class="container">
-            <h3 class="only-en">Enter your Phone Number</h3>
-            <h3 class="only-ar">ادخل رقم هاتفك المحمول للحصول على الرقم السري</h3>
-        </div>
-    </div>
-    <div class="phone-form">
-        <div class="container">
+// if (!Filter::isWebview() && !in_array($sub_land, ['main'])) {
+//     $sub_land = $_GET['sub_land'] = 'sub_4';
+// }
+
+$init = new LandInit();
+
+$init->sub_land = $sub_land;
+$init->landingUrl = preg_replace('/\?.*/', '', $currentUrl);
+
+$init->wb_id = $_GET['ext_id'] ?? '';
+unset($_GET['ext_id']);
+
+// if ($init->redis->exists("aegErrorBlock$init->wb_id")) {
+//     header('Location: https://www.google.com/'); exit;
+// }
+
+// $init->newAbonent();
 
 
-
-            <form method="post" id="subConfirm" action="pin.php">
-<!--                <span class="error"></span>-->
-                <div class="MSISDNclass">
-                    <div class="inputWrap" dir="ltr">
-                        <img class="flag" src="images/flag%20.png">
-                        <div class="region-code">+971</div>
-                        <div class="inputBlock">
-                            <input type="text" class="mainInput" placeholder="XXXXXXXXX" name="msisdn" id="msisdn" maxlength="18" inputmode="tel" required>
-                            <div class="cursor"></div>
-                        </div>
-                    </div>
-                </div>
-                <input type="hidden" name="lang" value="en">
-                <button id="confirm" class="buttons" type="submit" name="confirm" onclick="return validate_LoginForm();">
-                    <span class="only-en">CONTINUE</span>
-                    <span class="only-ar">إشترك</span>
-                </button>
-            </form>
+if (isset($_POST['msisdn'])) {
+    $init->phone = $_POST['msisdn'];
+    unset($_POST['msisdn']);
+    try {
+        $init->submit();
+    } catch (InvalidPhoneNumberException | ExtraInitException $e) {
+        $res = $e->getMessage();
+        Logs::log("phone submit error: wb_id=$init->wb_id, phone=$init->phone, text=$res");
+    }
+}
 
 
+// View
+$content = file_get_contents("lands/$sub_land/index.html");
 
-        </div>
-    </div>
-    <div class="footer">
-        <button class="cancel" name="cancel" id="exitButton" onclick="window.open('https://games-universe.online/','_self')">
-            <span class="only-en">EXIT</span>
-            <span class="only-ar">خروج</span>
-        </button>
-        <div class="box">
-            <div id="disclaimer" class="only-en">
-                <p>
-                    Free for 24 hours then, you will be charged AED 12/week.
-                    Play awesome and exciting Games with Games Universe. Games Universe is your go-to app for a collection of the coolest games from many entertaining categories.
-                    By Clicking on Subscribe, you agree to the below terms and conditions:
-                    You will start the paid subscription after 24 hours free period automatically. No commitment, you can cancel your subscription at any time by sending C GSU to 1111.
-                    To get support, please contact support@customer-help.center
-                    The free trial is valid only for new subscribers.
-                    Enjoy your Free trial for 24 hours.
-                    For complete T&amp;C click&nbsp;<a href="https://aeg.games-universe.online/terms">here</a>
-                </p>
-            </div>
-            <div id="disclaimer" class="only-ar">
-                <p>
-                    مجانًا لمدة 24 ساعة ، سيتم تحصيل 12 درهمًا إماراتيًا في الأسبوع.
-                    العب ألعاباً رائعة ومثيرة مع Games Universe. Games Universe هو اختيارك الأول من التطبيقات للحصول على مجموعة من أروع الألعاب من بين العديد من الفئات المسلية. سيتم باشتراكك خصم 2 د.إ. يومياً من مستخدمي اتصالات (باستثناء ضريبة القيمة المضافة).
+$content = str_replace('<head>', "<head>\n\t<base href=\"lands/$sub_land/\">", $content);
+$content = str_replace('</body>', "<script>document.querySelector('form').setAttribute('action', '$currentUrl')</script></body>", $content);
 
-                    بنقرك على زر "اشتراك" فإنك توافق على الشروط والأحكام التالية: ستبدأ الاشتراك المدفوع بعد الفترة المجانية تلقائياً. لا يوجد التزام، إذ يمكنك إلغاء اشتراكك في أي وقت عن طريق إرسال C GSU إلى 1111. للحصول على الدعم، يرجى الاتصال بـ <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="31424441415e434571524442455e5c54431c59545d411f52545f455443">[email&nbsp;protected]</a> النسخةالتجريبية المجانية صالحة للمشتركين الجدد فقط.
-                    استمتع بالإصدار التجريبي المجاني لمدة 24 ساعة.
-                    <a href="http://aeg.games-universe.online/terms">الشروط والأحكام</a>
-                </p>
-            </div>
-        </div>
-    </div>
-    </div>
-    <script>
+if ($res) $content = str_replace('<p class="error"></p>', "<p class=\"error\">$res</p>", $content);
+else $content = str_replace('<p class="error"></p>', '', $content);
 
-        language();
-
-        function language() {
-
-            $('.only-en').show();
-            $('.only-ar').hide();
-
-
-            if (document.cookie == null) {
-                $('.only-en').show();
-                console.log('null');
-            }
-
-            // if (document.cookie.search("en") != -1 || document.cookie == "" || document.cookie == '') {
-            //     document.getElementsByTagName("html")[0].dir = "ltr";
-            //     document.getElementsByTagName("html")[0].lang = "en";
-            //     console.log('en')
-            //     document.cookie = "lang=en";
-            //     $('.only-en').show();
-            // }
-            //
-            // if (document.cookie.search("ar") != -1) {
-            //     document.getElementsByTagName("html")[0].dir = "rtl";
-            //     document.getElementsByTagName("html")[0].lang = "ar";
-            //     console.log('ar')
-            //     document.cookie = "lang=ar";
-            //     $('.only-ar').show();
-            // }
-
-            $('.optionEn').click(function() {
-                document.getElementsByTagName("html")[0].dir = "ltr";
-                document.getElementsByTagName("html")[0].lang = "en";
-                $('.only-en').show();
-                $('.only-ar').hide();
-                console.log('en');
-                document.cookie = "lang=en";
-
-            })
-
-            $('.optionAr').click(function() {
-                document.getElementsByTagName("html")[0].dir = "rtl";
-                document.getElementsByTagName("html")[0].lang = "ar";
-                $('.only-en').hide();
-                $('.only-ar').show();
-                console.log('ar');
-                document.cookie = "lang=ar";
-            })
-        }
-
-
-        // -----
-
-
-
-
-        let ua = navigator.userAgent.toLowerCase();
-        let isAndroid = ua.indexOf("android") > -1;
-
-        function wrapperHeight() {
-            if (isAndroid) {
-                setTimeout(() => {
-                    document.querySelector('.wrapper').style.height = document.querySelector('.wrapper').offsetHeight + 'px';
-                }, 100);
-            }
-        }
-
-        function scrollToInput() {
-            let hiddenInput = document.querySelector('.hiddenInput');
-
-            if (!isAndroid) {
-                hiddenInput.onfocus = () => {
-                    if (window.orientation === 90 || window.orientation === -90) {
-                        window.scroll(0, document.querySelector('header').offsetHeight + 20);
-                    }
-                }
-            }
-        }
-
-        function inputFocus() {
-            let hiddenInput = document.querySelector('.hiddenInput');
-            let input = document.querySelector('.mainInput');
-            let cursor = document.querySelector('.cursor');
-
-            let inputPlaceholder = input.getAttribute('placeholder');
-
-            document.querySelector('.inputBlock').onclick = () => {
-                hiddenInput.focus();
-                input.setAttribute('placeholder', '');
-                cursor.style.display = 'block';
-            }
-
-            hiddenInput.oninput = () => {
-                input.value = hiddenInput.value;
-
-                if (input.value === '') {
-                    cursor.style.display = 'block';
-                } else {
-                    cursor.style.display = 'none';
-                }
-            }
-
-            hiddenInput.onblur = () => {
-                cursor.style.display = 'none';
-                input.setAttribute('placeholder', inputPlaceholder);
-            }
-        }
-
-        window.onload = () => {
-            wrapperHeight()
-            inputFocus();
-            scrollToInput()
-            // footerPosition();
-        }
-
-        window.onresize = () => {
-            // footerPosition();
-        }
-
-        window.onorientationchange = () => {
-            if (isAndroid) {
-                location.reload();
-            }
-        }
-
-
-
-
-    </script>
-    <script>
-        document.onsubmit = () => {
-            document.querySelector('button[type=submit]').setAttribute('disabled', 'disabled');
-        }
-
-        let input = document.querySelector('.hiddenInput');
-        input.oninput = () => {
-            input.value = input.value.replace(/[^0-9]/, '');
-            if (input.value.substr(0, 2) === '05') input.setAttribute('maxlength', '10');
-            else if (input.value.substr(0, 3) === '971') input.setAttribute('maxlength', '12');
-            else input.setAttribute('maxlength', '9');
-        }
-    </script>
-
-
-<!--    <script>-->
-
-<!--        language();-->
-
-<!--        function language() {-->
-<!--            var userLang = navigator.language || navigator.userLanguage;-->
-<!--            $('.only-en').hide();-->
-<!--            $('.only-ar').hide();-->
-<!--            var x = document.cookie;-->
-<!--            if (x == null) {-->
-<!--                $('.only-en').show();-->
-
-<!--            }-->
-<!--            if (x.search("en") != -1 || x == "" || x == '') {-->
-<!--                document.getElementsByTagName("html")[0].dir = "ltr";-->
-<!--                document.getElementsByTagName("html")[0].lang = "en";-->
-<!--                console.log(2);-->
-<!--                document.cookie = "lang=en";-->
-<!--                $('.only-en').show();-->
-
-<!--            } else {-->
-<!--                console.log(3);-->
-<!--                document.cookie = "lang=ar";-->
-<!--                $('.only-ar').show();-->
-
-<!--            }-->
-<!--            if (x.search("ar") != -1) {-->
-<!--                document.getElementsByTagName("html")[0].dir = "rtl";-->
-<!--                document.getElementsByTagName("html")[0].lang = "ar";-->
-<!--                v-->
-
-<!--            }-->
-<!--            $('.optionEn').addClass('current');-->
-<!--            $('.optionAr').click(function() {-->
-<!--                document.getElementsByTagName("html")[0].dir = "rtl";-->
-<!--                document.getElementsByTagName("html")[0].lang = "ar";-->
-<!--                $('#container').css({-->
-<!--                    'text-align': 'right'-->
-<!--                });-->
-<!--                $(this).addClass('current');-->
-<!--                $('.only-en').hide();-->
-<!--                $('.optionEn').removeClass('current');-->
-<!--                $('.only-ar').show();-->
-<!--                $('#msisdn').attr('placeholder', 'XXXXXXXXX');-->
-<!--                document.cookie = "lang=ar";-->
-<!--                var x = document.cookie-->
-<!--            });-->
-<!--            $('.optionEn').click(function() {-->
-<!--                document.getElementsByTagName("html")[0].dir = "ltr";-->
-<!--                document.getElementsByTagName("html")[0].lang = "en";-->
-<!--                $('#container').css({-->
-<!--                    'text-align': 'left'-->
-<!--                });-->
-<!--                $(this).addClass('current');-->
-<!--                $('.only-ar').hide();-->
-<!--                $('.optionAr').removeClass('current');-->
-<!--                $('.only-en ').show();-->
-<!--                $('#msisdn').attr('placeholder', 'Phone Number');-->
-<!--                document.cookie = "lang=en";-->
-<!--                var x = document.cookie-->
-<!--            });-->
-<!--            if (userLang == 'ar' && $('.optionEn').hasClass("current")) {-->
-<!--                $('.optionAr').click()-->
-<!--            }-->
-<!--        }-->
-<!--    </script>-->
-</body>
-</html>
+echo $content;

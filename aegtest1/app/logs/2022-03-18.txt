@@ -1,0 +1,12 @@
+2022-03-18 20:07:12 http://inspigate.com/go4mobility/init/extra request: phone=971544505322&subscription_id= extra init response: http_code=549, data=Error
+===
+2022-03-18 20:07:12 phone submit error: wb_id=, phone=971544505322, text=Extra init unexpected response
+===
+2022-03-18 20:09:15 http://inspigate.com/go4mobility/init/extra request: phone=971544505322&subscription_id= extra init response: http_code=549, data=Error
+===
+2022-03-18 20:09:15 phone submit error: wb_id=, phone=971544505322, text=Extra init unexpected response
+===
+2022-03-18 20:09:47 http://inspigate.com/go4mobility/init/extra request: phone=971544505322&subscription_id= extra init response: http_code=549, data=Error
+===
+2022-03-18 20:09:47 phone submit error: wb_id=, phone=971544505322, text=Extra init unexpected response
+===

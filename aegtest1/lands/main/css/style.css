@@ -155,9 +155,11 @@ form {
     color: #8a9499;
     /*border-bottom: 2px solid #878787;*/
 }
+
 .inputBlock {
     position: relative;
     width: 160px;
+    left: 3px;
 }
 .inputWrap .flag {
     width: 40px;
@@ -191,9 +193,7 @@ form {
 .cursor {
     position: absolute;
     top: 0;
-    /*left: 3px;*/
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
     width: 3px;
     height: 100%;
     display: none;
@@ -202,6 +202,11 @@ form {
     opacity: 1;
     animation: cursor 1s ease infinite;
     animation-delay: 0.2s;
+}
+
+.pin-cursor {
+    left: 50%;
+    transform: translateX(-50%);
 }
 .buttons {
     flex: 1 1 auto;
@@ -263,30 +268,169 @@ form {
     text-decoration: underline;
 }
 
+.box {
+    /*height: 75px;*/
+}
+
+
+/*--------------
+     pin only
+--------------*/
+.text-box {
+    height: 70px;
+}
+.actionText {
+    font-size: 21px;
+    color: #ff5d10;
+}
+.infoText {
+    max-width: 75%;
+    margin: 3px auto 10px;
+    font-size: 18px;
+    color: #8a9499;
+    font-weight: bold;
+}
+
+.inputWrapper {
+    width: 288px;
+    margin: 0 auto;
+    padding-bottom: 3px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: #8a9499;
+    border-bottom: 2px solid #878787;
+}
+.inputPinBlock {
+    margin: 0 auto;
+}
+.pin-mainInput {
+    text-align: center;
+}
+
 
 /*--------------
      Media
 --------------*/
-@media (min-height: 650px) {
-    main {
-        padding-top: 50px;
+
+
+
+@media (max-width: 600px)
+{
+    .text-box {
+        height: 90px;
     }
 }
 
-@media
-(orientation: portrait) and (max-height: 515px),
-(orientation: landscape) and (max-height: 540px) {
-    footer {
+/*orientation: portrait*/
+
+@media (max-width: 440px)
+and (orientation: portrait)
+{
+    .main-img {
+        padding-top: 6px;
+    }
+}
+
+
+@media (max-width: 375px)
+and (orientation: portrait)
+{
+    .main-img {
+        max-width: 90px;
+    }
+    .text-box {
+        height: 78px;
+    }
+    .buttons {
+        height: 55px;
+        line-height: 1;
+    }
+    .footer {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 320px)
+and (orientation: portrait)
+{
+    .phone-title h3 {
+        font-size: 14px;
+    }
+    .buttons {
+        width: 95%;
+        font-size: 22px;
+    }
+    .inputWrapper {
+        width: 95%;
+    }
+    .inputWrap {
+        width: 95%;
+    }
+    .text-box {
+        height: 65px;
+    }
+    .actionText {
+        font-size: 18px;
+    }
+    .infoText {
+        font-size: 14px;
+    }
+
+}
+
+/*orientation: landscape*/
+@media (orientation: landscape)
+{
+    .footer {
         position: relative;
-        margin-top: 50px;
     }
 }
 
-@media (orientation: landscape) and (max-height: 370px) {
-    main {
-        padding-top: 15px;
+@media (orientation: landscape)
+    and (max-width: 992px)
+{
+    .main-img {
+        padding-top: 0;
+        width: 15%;
     }
 }
+
+@media (orientation: landscape)
+and (max-width: 600px)
+{
+
+    .buttons {
+        height: 55px;
+        line-height: 1;
+    }
+    .footer {
+        font-size: 9px;
+    }
+}
+
+
+
+/*@media (min-height: 650px) {*/
+/*    main {*/
+/*        padding-top: 50px;*/
+/*    }*/
+/*}*/
+
+/*@media*/
+/*(orientation: portrait) and (max-height: 515px),*/
+/*(orientation: landscape) and (max-height: 540px) {*/
+/*    footer {*/
+/*        position: relative;*/
+/*        margin-top: 50px;*/
+/*    }*/
+/*}*/
+
+/*@media (orientation: landscape) and (max-height: 370px) {*/
+/*    main {*/
+/*        padding-top: 15px;*/
+/*    }*/
+/*}*/
 
 
 /*--------------

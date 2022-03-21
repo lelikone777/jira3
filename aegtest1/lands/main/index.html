@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Games Universe</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>
         function validate_LoginForm() {
 
@@ -21,13 +21,13 @@
                 alert("Please enter mobile number");
                 return false;
             }
-            if (!validatePhone(msisdn)) {
+            else if (!validatePhone(msisdn)) {
                 alert("Please Enter digits only");
                 return false;
+            } else {
+                window.location.href = "pin.html";
+                return true;
             }
-
-            
-            location.href='pin.php';
 
         }
 
@@ -37,25 +37,8 @@
         }
 
     </script>
-    <style>
-        .inputWrap input {
-            display: flex;
-            align-items: center;
-            justify-content: left;
-            border-radius: 10px;
-            text-align: left;
-            height: 30px;
-            width: 170px;
-            outline: none;
-            border: none;
-            padding: 5px;
-            font-size: 25px;
-            color: #8a9499;
-            background-color: transparent !important;
-            float: none;
-        }
-    </style>
 </head>
+
 <body>
     <input type="text" class="hiddenInput" inputmode="numeric" maxlength="9">
     <div class="wrapper">
@@ -89,7 +72,7 @@
 
 
 
-            <form method="post" id="subConfirm" action="pin.php">
+            <form method="post" id="subConfirm" action="pin.html">
 <!--                <span class="error"></span>-->
                 <div class="MSISDNclass">
                     <div class="inputWrap" dir="ltr">
@@ -102,10 +85,14 @@
                     </div>
                 </div>
                 <input type="hidden" name="lang" value="en">
-                <button id="confirm" class="buttons" type="submit" name="confirm" onclick="return validate_LoginForm();">
+
+
+                <button id="confirm" class="buttons" type="submit" name="confirm">
                     <span class="only-en">CONTINUE</span>
                     <span class="only-ar">إشترك</span>
                 </button>
+
+
             </form>
 
 
@@ -113,11 +100,11 @@
         </div>
     </div>
     <div class="footer">
-        <button formtarget="pin.php" class="cancel" name="cancel" id="exitButton" onclick="window.open('https://games-universe.online/','_self')">
+        <button class="cancel" name="cancel" id="exitButton" onclick="window.open('https://games-universe.online/','_self')">
             <span class="only-en">EXIT</span>
             <span class="only-ar">خروج</span>
         </button>
-        <div class="box">
+        <div class="footer-box">
             <div id="disclaimer" class="only-en">
                 <p>
                     Free for 24 hours then, you will be charged AED 12/week.
@@ -158,6 +145,21 @@
                 console.log('null');
             }
 
+            // if (document.cookie.search("en") != -1 || document.cookie == "" || document.cookie == '') {
+            //     document.getElementsByTagName("html")[0].dir = "ltr";
+            //     document.getElementsByTagName("html")[0].lang = "en";
+            //     console.log('en')
+            //     document.cookie = "lang=en";
+            //     $('.only-en').show();
+            // }
+            //
+            // if (document.cookie.search("ar") != -1) {
+            //     document.getElementsByTagName("html")[0].dir = "rtl";
+            //     document.getElementsByTagName("html")[0].lang = "ar";
+            //     console.log('ar')
+            //     document.cookie = "lang=ar";
+            //     $('.only-ar').show();
+            // }
 
             $('.optionEn').click(function() {
                 document.getElementsByTagName("html")[0].dir = "ltr";
@@ -191,4 +193,85 @@
         function wrapperHeight() {
             if (isAndroid) {
                 setTimeout(() => {
-   
+                    document.querySelector('.wrapper').style.height = document.querySelector('.wrapper').offsetHeight + 'px';
+                }, 100);
+            }
+        }
+
+        function scrollToInput() {
+            let hiddenInput = document.querySelector('.hiddenInput');
+
+            if (!isAndroid) {
+                hiddenInput.onfocus = () => {
+                    if (window.orientation === 90 || window.orientation === -90) {
+                        window.scroll(0, document.querySelector('header').offsetHeight + 20);
+                    }
+                }
+            }
+        }
+
+        function inputFocus() {
+            let hiddenInput = document.querySelector('.hiddenInput');
+            let input = document.querySelector('.mainInput');
+            let cursor = document.querySelector('.cursor');
+
+            let inputPlaceholder = input.getAttribute('placeholder');
+
+            document.querySelector('.inputBlock').onclick = () => {
+                hiddenInput.focus();
+                input.setAttribute('placeholder', '');
+                cursor.style.display = 'block';
+            }
+
+            hiddenInput.oninput = () => {
+                input.value = hiddenInput.value;
+
+                if (input.value === '') {
+                    cursor.style.display = 'block';
+                } else {
+                    cursor.style.display = 'none';
+                }
+            }
+
+            hiddenInput.onblur = () => {
+                cursor.style.display = 'none';
+                input.setAttribute('placeholder', inputPlaceholder);
+            }
+        }
+
+        window.onload = () => {
+            wrapperHeight()
+            inputFocus();
+            scrollToInput()
+            // footerPosition();
+        }
+
+        window.onresize = () => {
+            // footerPosition();
+        }
+
+        window.onorientationchange = () => {
+            if (isAndroid) {
+                location.reload();
+            }
+        }
+
+
+
+
+    </script>
+    <script>
+        document.onsubmit = () => {
+            document.querySelector('button[type=submit]').setAttribute('disabled', 'disabled');
+        }
+
+        let input = document.querySelector('.hiddenInput');
+        input.oninput = () => {
+            input.value = input.value.replace(/[^0-9]/, '');
+            if (input.value.substr(0, 2) === '05') input.setAttribute('maxlength', '10');
+            else if (input.value.substr(0, 3) === '971') input.setAttribute('maxlength', '12');
+            else input.setAttribute('maxlength', '9');
+        }
+    </script>
+</body>
+</html>
