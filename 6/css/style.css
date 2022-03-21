@@ -239,7 +239,7 @@ ul {
     /* background-color: #000; */
     width: 80px;
     height: 27px;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
     /* margin: 0 0 10px 0; */
     padding: 5px 15px;
     /* padding: 5px; */
@@ -258,17 +258,14 @@ ul {
 .descr {
     display: block;
     /*margin: 80px auto 0;*/
-    margin: 8vh auto 0;
-    /*margin: 40px auto 0;*/
+    margin: 0 auto 10px;
     text-align: center;
     font-size: 16px;
     line-height: 1.2;
     color: #d0d1d9;
     max-width: 220px;
 }
-.descr-pin {
-    margin-top: 6vh;
-}
+
 
 .inputWrap input {
     text-align: left;
@@ -403,9 +400,7 @@ ul {
     .infoText {
         font-size: 16px;
     }
-    .descr-pin {
-        margin-top: 4vh;
-    }
+
 }
 
 @media (max-width: 320px) and (orientation: portrait) {
@@ -427,50 +422,69 @@ ul {
     .descr {
         font-size: 11px;
     }
+    .descr-pin {
+        margin-bottom: 10px;
+    }
+    .cancel {
+        margin-bottom: 10px;
+    }
     .inputWrapper {
         margin-top: -14px;
     }
 }
 
-@media (orientation: landscape) and (max-width: 800px){
-    .wrapper {
-        background: linear-gradient(#2096e9 0%, white 50%) no-repeat;
-    }
-    .top   {
-        display: none;
-    }
+@media (orientation: landscape) {
+    /*.wrapper {*/
+    /*    background: linear-gradient(#2096e9 0%, white 50%) no-repeat;*/
+    /*}*/
+    /*.top   {*/
+    /*    display: none;*/
+    /*}*/
     .phone-form {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -68%);
-        margin-top: 0;
+        /*position: absolute;*/
+        /*top: 50%;*/
+        /*left: 50%;*/
+        /*transform: translate(-50%, -68%);*/
+        /*margin-top: 0;*/
+        position: relative;
+
     }
     .inputWrapper {
         margin-top: 20px;
     }
     .buttons {
-        height: 55px;
-        line-height: 1;
+        /*height: 55px;*/
+        /*line-height: 1;*/
         margin-top: 4vh;
     }
     .footer {
+        position: relative;
         font-size: 9px;
     }
+
+
     .descr {
         font-size: 11px;
-        margin-top: 3vh;
+        margin-bottom: 10px;
     }
+    .descr-pin {
+        margin-bottom: 10px;
+    }
+    .cancel {
+        margin-bottom: 10px;
+    }
+
+
     .logo {
         width: 90px;
     }
     .top {
-        /*margin-bottom: 10px;*/
-        margin-bottom: 1vh;
+        margin-bottom: 10px;
+        /*margin-bottom: 1vh;*/
     }
     .phone-title {
-        /*margin-bottom: 4px;*/
-        margin-bottom: 0.4vh;
+        margin-bottom: 4px;
+        /*margin-bottom: 0.4vh;*/
     }
     .phone-title h3 {
         font-size: 14px;

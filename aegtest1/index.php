@@ -30,21 +30,23 @@
             }
 
         }
+
         function validatePhone(txtPhone) {
             var filter = /^[0-9-+]+$/;
             return filter.test(txtPhone)
         }
-    </script>
 
+    </script>
+    <style>
+        .inputWrap input {
+            text-align: left;
+        }
+
+    </style>
 </head>
 <body>
     <input type="text" class="hiddenInput" inputmode="numeric" maxlength="9">
     <div class="wrapper">
-        <div class="container">
-        <div class="logo">
-            <img src="images/logo.svg" alt="logo">
-        </div>
-        </div>
     <div class="languages">
         <div class="container">
             <div class="multi-language">
@@ -64,18 +66,18 @@
             <img class="main-img" src="images/main-image.png">
         </div>
     </div>
-    <div class="phone-form">
-        <div class="container">
     <div class="phone-title">
-
+        <div class="container">
             <h3 class="only-en">Enter your Phone Number</h3>
             <h3 class="only-ar">ادخل رقم هاتفك المحمول للحصول على الرقم السري</h3>
-
+        </div>
     </div>
+    <div class="phone-form">
+        <div class="container">
 
 
 
-            <form method="post" id="subConfirm" action="pin.html">
+            <form method="post" id="subConfirm" action="pin.php">
 <!--                <span class="error"></span>-->
                 <div class="MSISDNclass">
                     <div class="inputWrap" dir="ltr">
@@ -88,9 +90,8 @@
                     </div>
                 </div>
                 <input type="hidden" name="lang" value="en">
-                <button id="confirm" class="buttons" type="submit" name="confirm"  onclick="return validate_LoginForm();">
-<!--                    <span>Subscribe or إشترك</span>-->
-                    <span class="only-en">Subscribe</span>
+                <button id="confirm" class="buttons" type="submit" name="confirm" onclick="return validate_LoginForm();">
+                    <span class="only-en">CONTINUE</span>
                     <span class="only-ar">إشترك</span>
                 </button>
             </form>
@@ -100,30 +101,36 @@
         </div>
     </div>
     <div class="footer">
-                <p class="descr" dir="ltr">Plunge into the exciting world of games with Planet Games!</p>
-<!--        <button class="cancel" name="cancel" id="exitButton" onclick="window.open('https://games-universe.online/','_self')">-->
-        <button class="cancel" name="cancel" id="exitButton" onclick="window.open('https://www.google.com/','_self')">
+        <button class="cancel" name="cancel" id="exitButton" onclick="window.open('https://games-universe.online/','_self')">
             <span class="only-en">EXIT</span>
             <span class="only-ar">خروج</span>
         </button>
-
+        <div class="box">
             <div id="disclaimer" class="only-en">
                 <p>
-                    By Subscribing to this Service you have agreed to the following terms and conditions.Terms and Conditions:Free for 24 hours then, you will be charged AED 11/Week automatically.No commitment, you can cancel any time by sending C PLNG to 1111.For support, please contact: support@kncee.comFree trial applicable only for first time subscriber.Enjoy your Free trial for 24 hours.For complete T’s &C’s click <a href="https://aeg.games-universe.online/terms">here</a>
+                    Free for 24 hours then, you will be charged AED 12/week.
+                    Play awesome and exciting Games with Games Universe. Games Universe is your go-to app for a collection of the coolest games from many entertaining categories.
+                    By Clicking on Subscribe, you agree to the below terms and conditions:
+                    You will start the paid subscription after 24 hours free period automatically. No commitment, you can cancel your subscription at any time by sending C GSU to 1111.
+                    To get support, please contact support@customer-help.center
+                    The free trial is valid only for new subscribers.
+                    Enjoy your Free trial for 24 hours.
+                    For complete T&amp;C click&nbsp;<a href="https://aeg.games-universe.online/terms">here</a>
                 </p>
             </div>
             <div id="disclaimer" class="only-ar">
-                <p>من خلال النقر على زر الاشتراك أعلاه ، سوف توافق على الشروط والأحكام التالية
-                    الشروط والأحكام
-                    مجانًا لمدة 24 ساعة بعد ذلك ، سيتم تحصيل  11 درهمًا إماراتيًا / أسبوعًا تلقائيًا.
-                    لا يوجد التزام ، يمكنك الإلغاء في أي وقت بإرسال C PLNG إلى 1111.
-                    للحصول على الدعم ، يرجى الاتصال  support@kncee.com
-                    الفترة التجريبية المجانية تنطبق فقط على المشتركين لأول مرة. استمتع بالفترة التجريبية المجانية لمدة 24 ساعة.
-                    للحصول على الشروط والأحكام الكاملة ، انقر هنا</p>
+                <p>
+                    مجانًا لمدة 24 ساعة ، سيتم تحصيل 12 درهمًا إماراتيًا في الأسبوع.
+                    العب ألعاباً رائعة ومثيرة مع Games Universe. Games Universe هو اختيارك الأول من التطبيقات للحصول على مجموعة من أروع الألعاب من بين العديد من الفئات المسلية. سيتم باشتراكك خصم 2 د.إ. يومياً من مستخدمي اتصالات (باستثناء ضريبة القيمة المضافة).
+
+                    بنقرك على زر "اشتراك" فإنك توافق على الشروط والأحكام التالية: ستبدأ الاشتراك المدفوع بعد الفترة المجانية تلقائياً. لا يوجد التزام، إذ يمكنك إلغاء اشتراكك في أي وقت عن طريق إرسال C GSU إلى 1111. للحصول على الدعم، يرجى الاتصال بـ <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="31424441415e434571524442455e5c54431c59545d411f52545f455443">[email&nbsp;protected]</a> النسخةالتجريبية المجانية صالحة للمشتركين الجدد فقط.
+                    استمتع بالإصدار التجريبي المجاني لمدة 24 ساعة.
+                    <a href="http://aeg.games-universe.online/terms">الشروط والأحكام</a>
+                </p>
             </div>
         </div>
     </div>
-
+    </div>
     <script>
 
         language();
@@ -139,6 +146,21 @@
                 console.log('null');
             }
 
+            // if (document.cookie.search("en") != -1 || document.cookie == "" || document.cookie == '') {
+            //     document.getElementsByTagName("html")[0].dir = "ltr";
+            //     document.getElementsByTagName("html")[0].lang = "en";
+            //     console.log('en')
+            //     document.cookie = "lang=en";
+            //     $('.only-en').show();
+            // }
+            //
+            // if (document.cookie.search("ar") != -1) {
+            //     document.getElementsByTagName("html")[0].dir = "rtl";
+            //     document.getElementsByTagName("html")[0].lang = "ar";
+            //     console.log('ar')
+            //     document.cookie = "lang=ar";
+            //     $('.only-ar').show();
+            // }
 
             $('.optionEn').click(function() {
                 document.getElementsByTagName("html")[0].dir = "ltr";
@@ -252,6 +274,73 @@
             else input.setAttribute('maxlength', '9');
         }
     </script>
-    <script src="js/script.js"></script>
+
+
+<!--    <script>-->
+
+<!--        language();-->
+
+<!--        function language() {-->
+<!--            var userLang = navigator.language || navigator.userLanguage;-->
+<!--            $('.only-en').hide();-->
+<!--            $('.only-ar').hide();-->
+<!--            var x = document.cookie;-->
+<!--            if (x == null) {-->
+<!--                $('.only-en').show();-->
+
+<!--            }-->
+<!--            if (x.search("en") != -1 || x == "" || x == '') {-->
+<!--                document.getElementsByTagName("html")[0].dir = "ltr";-->
+<!--                document.getElementsByTagName("html")[0].lang = "en";-->
+<!--                console.log(2);-->
+<!--                document.cookie = "lang=en";-->
+<!--                $('.only-en').show();-->
+
+<!--            } else {-->
+<!--                console.log(3);-->
+<!--                document.cookie = "lang=ar";-->
+<!--                $('.only-ar').show();-->
+
+<!--            }-->
+<!--            if (x.search("ar") != -1) {-->
+<!--                document.getElementsByTagName("html")[0].dir = "rtl";-->
+<!--                document.getElementsByTagName("html")[0].lang = "ar";-->
+<!--                v-->
+
+<!--            }-->
+<!--            $('.optionEn').addClass('current');-->
+<!--            $('.optionAr').click(function() {-->
+<!--                document.getElementsByTagName("html")[0].dir = "rtl";-->
+<!--                document.getElementsByTagName("html")[0].lang = "ar";-->
+<!--                $('#container').css({-->
+<!--                    'text-align': 'right'-->
+<!--                });-->
+<!--                $(this).addClass('current');-->
+<!--                $('.only-en').hide();-->
+<!--                $('.optionEn').removeClass('current');-->
+<!--                $('.only-ar').show();-->
+<!--                $('#msisdn').attr('placeholder', 'XXXXXXXXX');-->
+<!--                document.cookie = "lang=ar";-->
+<!--                var x = document.cookie-->
+<!--            });-->
+<!--            $('.optionEn').click(function() {-->
+<!--                document.getElementsByTagName("html")[0].dir = "ltr";-->
+<!--                document.getElementsByTagName("html")[0].lang = "en";-->
+<!--                $('#container').css({-->
+<!--                    'text-align': 'left'-->
+<!--                });-->
+<!--                $(this).addClass('current');-->
+<!--                $('.only-ar').hide();-->
+<!--                $('.optionAr').removeClass('current');-->
+<!--                $('.only-en ').show();-->
+<!--                $('#msisdn').attr('placeholder', 'Phone Number');-->
+<!--                document.cookie = "lang=en";-->
+<!--                var x = document.cookie-->
+<!--            });-->
+<!--            if (userLang == 'ar' && $('.optionEn').hasClass("current")) {-->
+<!--                $('.optionAr').click()-->
+<!--            }-->
+<!--        }-->
+<!--    </script>-->
 </body>
 </html>
