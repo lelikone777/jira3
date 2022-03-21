@@ -421,9 +421,6 @@ form {
     .main-img {
         padding-top: 10px;
     }
-    .footer {
-        font-size: 10px;
-    }
 }
 /*@media (orientation: landscape) and (max-height: 540px) {*/
 /*    .footer {*/
@@ -463,7 +460,7 @@ and (orientation: portrait)
         height: 65px;
     }
     .footer {
-        font-size: 11px;
+        font-size: 10px;
     }
     .buttons {
         width: 95%;
